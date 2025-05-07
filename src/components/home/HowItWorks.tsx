@@ -1,52 +1,44 @@
 
 import React from 'react';
 
-const steps = [
-  {
-    number: "01",
-    title: "Track Your Habits",
-    description: "Start by monitoring your current digital use patterns and eating behaviors to identify connections."
-  },
-  {
-    number: "02",
-    title: "Personalized Insights",
-    description: "Receive customized analysis and recommendations based on your unique lifestyle and goals."
-  },
-  {
-    number: "03",
-    title: "Implement Strategies",
-    description: "Apply practical techniques to improve both screen habits and nutrition choices simultaneously."
-  },
-  {
-    number: "04",
-    title: "Measure Progress",
-    description: "Track your journey with our tools and celebrate improvements in your digital-food balance."
-  }
-];
-
 const HowItWorks = () => {
   return (
     <section className="section bg-screenwise-gray">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">How It Works</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Our simple four-step process helps you transform your relationship with both technology and food.
-        </p>
-      </div>
+      <div className="container mx-auto px-4 py-16">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">How Screenwise Eating Works</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Screenwise Eating consists of two connected tools designed to maintain treatment fidelity outside the clinic:
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        {steps.map((step, index) => (
-          <div 
-            key={index} 
-            className="relative bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition-all"
-          >
-            <div className="absolute -top-4 -left-4 bg-screenwise-teal text-white w-12 h-12 rounded-full flex items-center justify-center text-xl font-bold">
-              {step.number}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition-all">
+            <div className="h-12 w-12 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
             </div>
-            <h3 className="text-xl font-semibold mb-3 mt-4 text-screenwise-navy">{step.title}</h3>
-            <p className="text-gray-600">{step.description}</p>
+            <h3 className="text-2xl font-semibold mb-3 text-screenwise-navy">Caregiver Mobile App</h3>
+            <p className="text-gray-600">
+              Guides families through structured home meals using therapist-assigned plans. Tracks bite counts, food volume, behaviors, engagement, and pacing — while delivering rewards via preferred digital content.
+            </p>
           </div>
-        ))}
+
+          <div className="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition-all">
+            <div className="h-12 w-12 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><line x1="3" x2="21" y1="9" y2="9" /><path d="M9 21v-6" /><path d="M15 21v-6" /></svg>
+            </div>
+            <h3 className="text-2xl font-semibold mb-3 text-screenwise-navy">Therapist Web Portal</h3>
+            <p className="text-gray-600">
+              Enables therapists to assign interventions, adjust pacing and reinforcement, and monitor detailed mealtime metrics in real time. Data visualizations highlight trends, bottlenecks, and progress.
+            </p>
+          </div>
+        </div>
+
+        <div className="text-center mt-12 max-w-3xl mx-auto">
+          <p className="text-lg text-gray-700 font-medium">
+            This two-way system creates a continuous therapy loop, improving outcomes and reducing reliance on caregiver-reported data.
+          </p>
+        </div>
       </div>
     </section>
   );
