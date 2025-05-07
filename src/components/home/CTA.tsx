@@ -1,13 +1,10 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MessageSquare } from 'lucide-react';
-
 const CTA = () => {
-  return (
-    <section className="bg-screenwise-teal py-20">
+  return <section className="bg-screenwise-teal py-20">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Bring Therapy Home — Without Losing Control</h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Bring Feeding Therapy Home — Without Losing Control</h2>
         <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-8">
           You don't have time to chase progress. With Screenwise Eating, your clients stay on track between visits, and your plans stay personalized and evidence-based. Less guesswork. More results.
         </p>
@@ -20,8 +17,6 @@ const CTA = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTA;
