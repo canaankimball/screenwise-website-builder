@@ -19,8 +19,8 @@ const Index = () => {
       <ClinicalValue />
       <Evidence />
       <WhoItsFor />
-      <Testimonials />
       <OurStory />
+      <Testimonials />
       <CTA />
     </Layout>
   );

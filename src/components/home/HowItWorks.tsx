@@ -13,9 +13,9 @@ const HowItWorks = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition-all">
-            <div className="h-12 w-12 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-screenwise-teal">
+            <div className="h-16 w-16 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6 shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg>
             </div>
             <h3 className="text-2xl font-semibold mb-3 text-screenwise-navy">Caregiver Mobile App</h3>
             <p className="text-gray-600">
@@ -23,9 +23,9 @@ const HowItWorks = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-md p-8 hover:shadow-lg transition-all">
-            <div className="h-12 w-12 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><line x1="3" x2="21" y1="9" y2="9" /><path d="M9 21v-6" /><path d="M15 21v-6" /></svg>
+          <div className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-t-4 border-screenwise-teal">
+            <div className="h-16 w-16 bg-screenwise-teal rounded-full flex items-center justify-center text-white mb-6 shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2" /><line x1="3" x2="21" y1="9" y2="9" /><path d="M9 21v-6" /><path d="M15 21v-6" /></svg>
             </div>
             <h3 className="text-2xl font-semibold mb-3 text-screenwise-navy">Therapist Web Portal</h3>
             <p className="text-gray-600">
@@ -35,7 +35,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="text-center mt-12 max-w-3xl mx-auto">
-          <p className="text-lg text-gray-700 font-medium">
+          <p className="text-lg text-gray-700 font-medium px-6 py-4 bg-screenwise-light bg-opacity-50 rounded-xl inline-block">
             This two-way system creates a continuous therapy loop, improving outcomes and reducing reliance on caregiver-reported data.
           </p>
         </div>

@@ -8,30 +8,35 @@ const OurStory = () => {
   return (
     <section className="section bg-screenwise-light bg-opacity-30">
       <div className="container mx-auto px-4 py-16">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-screenwise-navy">Born From Real Need. Built by a Family-Therapist-Engineer Team.</h2>
-              <p className="text-lg text-gray-600 mb-8">
-                Our journey started with a father frustrated by his son's feeding challenges. Despite quality therapy, progress was slow at home. Therapy plans were hard to follow, and feedback loops were broken.
-              </p>
-              <p className="text-lg text-gray-600 mb-8">
-                That father, Eric, teamed up with Canaan — a Lehigh University student with a background in engineering and entrepreneurship. Together, they built Screenwise Eating: a scalable platform that supports therapists in delivering better care outside the clinic.
-              </p>
-              <p className="text-lg text-gray-600 mb-8">
-                Today, we're a growing team of engineers, clinicians, and researchers driven by one goal: to make feeding therapy more effective, accessible, and data-informed.
-              </p>
-              <Link to="/our-story">
-                <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6 text-lg flex items-center">
-                  Read Full Story <ArrowRight className="ml-2" size={18} />
-                </Button>
-              </Link>
+              <div className="space-y-6">
+                <p className="text-lg text-gray-600">
+                  Our journey started with a father frustrated by his son's feeding challenges. Despite quality therapy, progress was slow at home. Therapy plans were hard to follow, and feedback loops were broken.
+                </p>
+                <p className="text-lg text-gray-600">
+                  That father, Eric, teamed up with Canaan — a Lehigh University student with a background in engineering and entrepreneurship. Together, they built Screenwise Eating: a scalable platform that supports therapists in delivering better care outside the clinic.
+                </p>
+                <p className="text-lg text-gray-600">
+                  Today, we're a growing team of engineers, clinicians, and researchers driven by one goal: to make feeding therapy more effective, accessible, and data-informed.
+                </p>
+              </div>
+              <div className="mt-8">
+                <Link to="/our-story">
+                  <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6 text-lg flex items-center shadow-sm hover:shadow-md transform hover:-translate-y-1 transition-all duration-300">
+                    Read Full Story <ArrowRight className="ml-2" size={18} />
+                  </Button>
+                </Link>
+              </div>
             </div>
-            <div className="md:w-1/2">
+            <div className="md:w-1/2 relative">
+              <div className="absolute inset-0 bg-screenwise-teal rounded-2xl opacity-20 transform -rotate-2"></div>
               <img 
                 src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600" 
                 alt="Screenwise Eating Team" 
-                className="rounded-2xl shadow-xl w-full"
+                className="rounded-2xl shadow-xl w-full relative z-10"
               />
             </div>
           </div>

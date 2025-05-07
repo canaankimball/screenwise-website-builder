@@ -65,11 +65,11 @@
   }
   
   .btn-primary {
-    @apply bg-screenwise-teal text-white px-6 py-3 rounded-full font-medium transition-all hover:bg-screenwise-teal-dark;
+    @apply bg-screenwise-teal text-white px-6 py-3 rounded-full font-medium shadow-md transition-all hover:bg-screenwise-teal-dark hover:shadow-lg transform hover:-translate-y-1;
   }
   
   .btn-secondary {
-    @apply bg-white text-screenwise-teal border border-screenwise-teal px-6 py-3 rounded-full font-medium transition-all hover:bg-screenwise-light;
+    @apply bg-white text-screenwise-teal border border-screenwise-teal px-6 py-3 rounded-full font-medium shadow-sm transition-all hover:bg-screenwise-light hover:shadow-md transform hover:-translate-y-1;
   }
   
   .section {
@@ -77,6 +77,25 @@
   }
   
   .card {
-    @apply bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg;
+    @apply bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-lg transform hover:-translate-y-1 duration-300;
   }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }

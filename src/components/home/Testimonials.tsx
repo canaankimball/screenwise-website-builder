@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Star } from 'lucide-react';
+import { Star, Quote } from 'lucide-react';
 
 const testimonials = [
   {
@@ -26,34 +26,39 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="section bg-white">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">What Our Users Say</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Discover how ScreenWise Eating has helped people improve their relationship with technology and food.
-        </p>
-      </div>
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">What Our Users Say</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Discover how ScreenWise Eating has helped people improve their relationship with technology and food.
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {testimonials.map((testimonial, index) => (
-          <div 
-            key={index} 
-            className="bg-screenwise-light bg-opacity-30 rounded-2xl p-8 border border-screenwise-teal/20 hover:shadow-md transition-all"
-          >
-            <div className="flex mb-4">
-              {[...Array(testimonial.stars)].map((_, i) => (
-                <Star key={i} className="h-5 w-5 fill-screenwise-teal text-screenwise-teal" />
-              ))}
-              {[...Array(5 - testimonial.stars)].map((_, i) => (
-                <Star key={i + testimonial.stars} className="h-5 w-5 text-gray-300" />
-              ))}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {testimonials.map((testimonial, index) => (
+            <div 
+              key={index} 
+              className="bg-white rounded-2xl p-8 border border-screenwise-light shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 relative"
+            >
+              <div className="absolute top-6 right-6 text-screenwise-teal opacity-20">
+                <Quote size={48} />
+              </div>
+              <div className="flex mb-4">
+                {[...Array(testimonial.stars)].map((_, i) => (
+                  <Star key={i} className="h-5 w-5 fill-screenwise-teal text-screenwise-teal" />
+                ))}
+                {[...Array(5 - testimonial.stars)].map((_, i) => (
+                  <Star key={i + testimonial.stars} className="h-5 w-5 text-gray-300" />
+                ))}
+              </div>
+              <p className="text-gray-700 italic mb-6 relative z-10">"{testimonial.quote}"</p>
+              <div className="border-t pt-4 mt-auto">
+                <p className="font-semibold text-screenwise-navy">{testimonial.author}</p>
+                <p className="text-gray-500 text-sm">{testimonial.role}</p>
+              </div>
             </div>
-            <p className="text-gray-700 italic mb-6">"{testimonial.quote}"</p>
-            <div>
-              <p className="font-semibold text-screenwise-navy">{testimonial.author}</p>
-              <p className="text-gray-500 text-sm">{testimonial.role}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Check } from 'lucide-react';
 
 const experts = [
   "Dr. Keith Williams & Dr. Laura Seiverling, BCBAs – Authors of Broccoli Boot Camp",
@@ -20,20 +21,20 @@ const Evidence = () => {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto bg-white p-8 rounded-2xl shadow-lg">
           <ul className="space-y-4">
             {experts.map((expert, index) => (
-              <li key={index} className="flex items-start">
-                <span className="bg-screenwise-teal text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 mt-1 flex-shrink-0">
-                  {index + 1}
+              <li key={index} className="flex items-start bg-screenwise-light bg-opacity-30 p-4 rounded-lg">
+                <span className="bg-screenwise-teal text-white rounded-full w-8 h-8 flex items-center justify-center mr-4 mt-0.5 flex-shrink-0 shadow-md">
+                  <Check size={16} strokeWidth={3} />
                 </span>
-                <span className="text-gray-700">{expert}</span>
+                <span className="text-gray-700 font-medium">{expert}</span>
               </li>
             ))}
           </ul>
           
           <div className="mt-10 text-center">
-            <p className="text-lg text-gray-700 font-medium">
+            <p className="text-lg text-gray-700 font-medium px-6 py-4 bg-screenwise-light bg-opacity-50 rounded-xl inline-block">
               We are currently conducting an IRB-approved study and piloting with intensive feeding clinics across the country.
             </p>
           </div>
