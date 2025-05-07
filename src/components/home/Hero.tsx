@@ -1,18 +1,28 @@
 
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-white to-screenwise-light pt-20 pb-16 md:pt-32 md:pb-24">
-      <div className="container mx-auto px-4">
+    <section className="relative overflow-hidden bg-gradient-to-br from-white to-screenwise-light pt-20 pb-16 md:pt-32 md:pb-24">
+      {/* Background decorative elements */}
+      <div className="absolute top-20 left-10 w-64 h-64 bg-screenwise-teal opacity-5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 right-10 w-80 h-80 bg-screenwise-navy opacity-5 rounded-full blur-3xl"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+            <div className="inline-flex items-center px-4 py-2 bg-screenwise-light rounded-full text-screenwise-teal mb-6 animate-fade-in">
+              <Sparkles className="mr-2" size={16} />
+              <span className="text-sm font-medium">Transforming feeding therapy</span>
+            </div>
+            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-screenwise-navy animate-fade-in">
-              Modern Feeding Therapy, Streamlined.
+              Modern Feeding Therapy, <span className="text-screenwise-teal">Streamlined.</span>
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 mb-6 max-w-lg animate-fade-in" style={{
+            
+            <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg animate-fade-in" style={{
               animationDelay: '0.2s'
             }}>Screenwise Eating is a digital platform that empowers feeding therapists to deliver more effective, data-driven care — even between sessions.</p>
             
@@ -34,7 +44,11 @@ const Hero = () => {
               animationDelay: '0.6s'
             }}>
               <div className="absolute inset-0 bg-screenwise-teal rounded-2xl opacity-20 transform rotate-3 scale-105"></div>
-              <img src="/lovable-uploads/1e7cfa7d-c175-43d2-97f2-8681914420a0.png" alt="Screenwise Eating dashboard showing analytics and charts" className="rounded-2xl shadow-xl w-full relative z-10" />
+              <img 
+                src="/lovable-uploads/1e7cfa7d-c175-43d2-97f2-8681914420a0.png" 
+                alt="Screenwise Eating dashboard showing analytics and charts" 
+                className="rounded-2xl shadow-xl w-full relative z-10 hover:shadow-2xl transition-shadow duration-300" 
+              />
             </div>
             
             {/* Second dashboard image - positioned to overlap with the first one */}
@@ -45,8 +59,15 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/dcc5b79d-10f6-4010-861a-fd0d4040f3d2.png" 
                 alt="Mobile app showing meal metrics" 
-                className="rounded-2xl shadow-xl w-full relative z-10" 
+                className="rounded-2xl shadow-xl w-full relative z-10 hover:shadow-2xl transition-shadow duration-300" 
               />
+              
+              {/* Decorative indicator dots */}
+              <div className="absolute -bottom-4 right-8 flex space-x-2 z-20">
+                <div className="h-3 w-3 rounded-full bg-screenwise-teal shadow-md animate-pulse"></div>
+                <div className="h-3 w-3 rounded-full bg-screenwise-teal opacity-70"></div>
+                <div className="h-3 w-3 rounded-full bg-screenwise-teal opacity-40"></div>
+              </div>
             </div>
           </div>
         </div>
