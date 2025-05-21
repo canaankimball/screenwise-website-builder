@@ -85,14 +85,7 @@ const Product = () => {
             <p className="text-lg text-gray-600 mb-8">
               Our comprehensive platform provides everything you need to deliver effective feeding therapy and track meaningful progress
             </p>
-            <div className="flex justify-center gap-4">
-              <Button className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6">
-                Start Free Trial
-              </Button>
-              <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6">
-                Schedule Demo
-              </Button>
-            </div>
+            {/* Removing the buttons from the hero section */}
           </div>
         </div>
       </div>
@@ -170,6 +163,16 @@ const Product = () => {
                 image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600"
               />
             </div>
+          </div>
+          
+          {/* Adding CTA buttons under the dual column section */}
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-16">
+            <Button variant="outline" className="bg-white text-screenwise-navy border-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6">
+              Start Free Trial
+            </Button>
+            <Button className="bg-screenwise-teal text-white hover:bg-screenwise-teal-dark rounded-full px-8 py-6">
+              Schedule Demo
+            </Button>
           </div>
         </div>
       </section>
