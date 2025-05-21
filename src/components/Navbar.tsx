@@ -1,8 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,8 +45,43 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center space-x-6">
           <Link to="/our-story" className="nav-link">Our Story</Link>
           <Link to="/product" className="nav-link">Product</Link>
-          <Link to="/small-business" className="nav-link">Small Business</Link>
-          <Link to="/enterprise" className="nav-link">Enterprise</Link>
+          <Link to="/pricing" className="nav-link">Pricing</Link>
+          
+          {/* Resources Dropdown */}
+          <NavigationMenu>
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuTrigger className="nav-link bg-transparent hover:bg-transparent focus:bg-transparent data-[state=open]:bg-transparent px-0">
+                  Resources
+                </NavigationMenuTrigger>
+                <NavigationMenuContent className="bg-white">
+                  <ul className="grid w-[200px] gap-3 p-4">
+                    <li>
+                      <NavigationMenuLink asChild>
+                        <Link
+                          to="/supporting-research"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          Supporting Research
+                        </Link>
+                      </NavigationMenuLink>
+                    </li>
+                    <li>
+                      <NavigationMenuLink asChild>
+                        <Link
+                          to="/faq"
+                          className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          FAQ
+                        </Link>
+                      </NavigationMenuLink>
+                    </li>
+                  </ul>
+                </NavigationMenuContent>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+          
           <Link to="/contact" className="nav-link">Contact Us</Link>
           <Button className="ml-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6">Get Started</Button>
         </nav>
@@ -57,8 +101,28 @@ const Navbar = () => {
           <nav className="flex flex-col items-center space-y-6 p-8 animate-fade-in">
             <Link to="/our-story" className="text-xl" onClick={() => setIsOpen(false)}>Our Story</Link>
             <Link to="/product" className="text-xl" onClick={() => setIsOpen(false)}>Product</Link>
-            <Link to="/small-business" className="text-xl" onClick={() => setIsOpen(false)}>Small Business</Link>
-            <Link to="/enterprise" className="text-xl" onClick={() => setIsOpen(false)}>Enterprise</Link>
+            <Link to="/pricing" className="text-xl" onClick={() => setIsOpen(false)}>Pricing</Link>
+            
+            {/* Resources dropdown for mobile */}
+            <div className="w-full flex flex-col items-center">
+              <button 
+                className="text-xl mb-2 flex items-center"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const resourcesContent = document.getElementById('mobile-resources-content');
+                  if (resourcesContent) {
+                    resourcesContent.classList.toggle('hidden');
+                  }
+                }}
+              >
+                Resources <ChevronDown className="ml-1 h-4 w-4" />
+              </button>
+              <div id="mobile-resources-content" className="hidden w-full flex flex-col items-center space-y-4 py-2">
+                <Link to="/supporting-research" className="text-lg" onClick={() => setIsOpen(false)}>Supporting Research</Link>
+                <Link to="/faq" className="text-lg" onClick={() => setIsOpen(false)}>FAQ</Link>
+              </div>
+            </div>
+            
             <Link to="/contact" className="text-xl" onClick={() => setIsOpen(false)}>Contact Us</Link>
             <Button className="mt-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-3 text-lg w-full">
               Get Started
