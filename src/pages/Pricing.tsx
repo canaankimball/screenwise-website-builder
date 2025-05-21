@@ -57,14 +57,14 @@ const Pricing = () => {
               ctaText="Get Started" 
             />
             <PricingTier 
-              title="Professional" 
+              title="Basic" 
               price="$14.99" 
               clients="Up to 10 clients" 
               features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Choose Plan" 
             />
             <PricingTier 
-              title="Clinic" 
+              title="Professional" 
               price="$24.99" 
               clients="Up to 20 clients" 
               features={["Access for 1 therapist", "Client access to YumEats app"]} 
