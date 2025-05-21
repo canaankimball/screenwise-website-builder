@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
@@ -15,7 +16,7 @@ const PricingTier = ({
   clients: string;
   features: string[];
   ctaText: string;
-}) => <div className="flex flex-col rounded-2xl p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl bg-white">
+}) => <div className="flex flex-col rounded-2xl p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl bg-white border-2 border-gray-200">
     <h3 className="text-xl font-bold text-screenwise-navy">{title}</h3>
     <div className="mt-4 mb-2">
       <span className="text-3xl font-bold text-screenwise-navy">{price}</span>
