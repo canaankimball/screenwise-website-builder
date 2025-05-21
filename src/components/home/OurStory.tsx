@@ -14,10 +14,10 @@ const OurStory = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-screenwise-navy">Born From Real Need. Built by a Family-Therapist-Engineer Team.</h2>
               <div className="space-y-6">
                 <p className="text-lg text-gray-600">
-                  Our journey started with a father frustrated by his son's feeding challenges. Despite quality therapy, progress was slow at home. Therapy plans were hard to follow, and feedback loops were broken.
+                  Our journey started with Eric Markovcy, whose son Ryan was born as a micro-preemie at just 1.3 pounds. Despite quality therapy, Ryan's feeding challenges were only resolved when a therapist was consistently present in the home.
                 </p>
                 <p className="text-lg text-gray-600">
-                  That father, Eric, teamed up with Canaan — a Lehigh University student with a background in engineering and entrepreneurship. Together, they built Screenwise Eating: a scalable platform that supports therapists in delivering better care outside the clinic.
+                  That transformation inspired Eric to team up with Canaan Kimball—a student-athlete at Lehigh University with a background in engineering and entrepreneurship. Together, they built Screenwise Eating: a scalable platform that supports therapists in delivering better care outside the clinic.
                 </p>
                 <p className="text-lg text-gray-600">
                   Today, we're a growing team of engineers, clinicians, and researchers driven by one goal: to make feeding therapy more effective, accessible, and data-informed.
@@ -34,8 +34,8 @@ const OurStory = () => {
             <div className="md:w-1/2 relative">
               <div className="absolute inset-0 bg-screenwise-teal rounded-2xl opacity-20 transform -rotate-2"></div>
               <img 
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600" 
-                alt="Screenwise Eating Team" 
+                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=600" 
+                alt="Father and child" 
                 className="rounded-2xl shadow-xl w-full relative z-10"
               />
             </div>
