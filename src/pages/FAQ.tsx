@@ -21,12 +21,15 @@ const FAQ = () => {
             </p>
             
             <Accordion type="single" collapsible className="w-full space-y-4">
-              <AccordionItem value="item-1" className="border rounded-lg px-4 shadow-sm">
-                <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">What ages is YumEats for?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 pb-4">
-                  YumEats is designed for children ages 2-10 who are receiving feeding therapy. The platform can be customized with age-appropriate incentives and is suitable for children with various feeding challenges, including food selectivity, refusal, and sensory sensitivities.
-                </AccordionContent>
-              </AccordionItem>
+             <AccordionItem value="item-1" className="border rounded-lg px-4 shadow-sm">
+              <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">
+                Who is this platform designed for?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 pb-4">
+                Screenwise is designed for feeding therapists—such as BCBAs, SLPs, OTs, and other clinicians—who work with children struggling with eating and feeding challenges. The platform bridges the gap between in-clinic therapy and mealtime at home by allowing therapists to send personalized feeding plans, track real-time data remotely, and support families in building consistent, structured eating routines. Whether supporting children with autism, sensory processing difficulties, or other developmental needs, Screenwise Eating helps streamline care and improve therapy outcomes beyond the clinic.
+              </AccordionContent>
+            </AccordionItem>
+
               
               <AccordionItem value="item-2" className="border rounded-lg px-4 shadow-sm">
                 <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">Is YumEats HIPAA compliant?</AccordionTrigger>
@@ -69,7 +72,18 @@ const FAQ = () => {
                   Yes, custom enterprise plans include options for custom branding, including your logo and color scheme. Additional customization options are available for enterprise clients, including custom terms, assessment tools, and integration with existing systems.
                 </AccordionContent>
               </AccordionItem>
+
+              <AccordionItem value="item-8" className="border rounded-lg px-4 shadow-sm">
+              <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">
+                Can multiple therapists and collaborators access the same client profile?
+              </AccordionTrigger>
+              <AccordionContent className="text-gray-700 pb-4">
+                Yes. Unlimited therapists and collaborators can be invited to view a client’s profile, as long as they are granted access by the client’s designated administrator. However, only the administrator has permission to make changes to the client’s therapy plan, goals, and settings. This structure ensures collaboration across teams while maintaining secure and consistent oversight.
+              </AccordionContent>
+            </AccordionItem>
             </Accordion>
+
+            
             
             <div className="mt-12 text-center">
               <p className="text-lg text-gray-600 mb-6">
