@@ -38,7 +38,7 @@ const FAQ = () => {
               <AccordionItem value="item-3" className="border rounded-lg px-4 shadow-sm">
                 <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">How do I track data?</AccordionTrigger>
                 <AccordionContent className="text-gray-700 pb-4">
-                  The YumEats platform includes comprehensive data tracking tools for both therapists and caregivers. Therapists can log sessions, track goals, and generate reports through the portal. Caregivers can log meals, record observations, and monitor progress through the mobile app. All data synchronizes in real-time across devices.
+                  The YumEats platform includes comprehensive data tracking tools for both therapists and caregivers. Therapists can log sessions, track goals, and generate reports through the portal. Caregivers can log meals, record observations, and automatically track mealtime metrics through the mobile app. All data synchronizes in real-time across devices.
                 </AccordionContent>
               </AccordionItem>
               
@@ -52,7 +52,7 @@ const FAQ = () => {
               <AccordionItem value="item-5" className="border rounded-lg px-4 shadow-sm">
                 <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">What devices are compatible?</AccordionTrigger>
                 <AccordionContent className="text-gray-700 pb-4">
-                  The YumEats mobile app is compatible with iOS and Android smartphones and tablets. The therapist portal is web-based and can be accessed from any modern web browser on computers, laptops, and tablets. We recommend using the latest version of Chrome, Safari, Firefox, or Edge for optimal performance.
+                  The YumEats mobile app is compatible with iOS smartphones and tablets. The therapist portal is web-based and can be accessed from any modern web browser on computers, laptops, and tablets. We recommend using the latest version of Chrome, Safari, Firefox, or Edge for optimal performance.
                 </AccordionContent>
               </AccordionItem>
               
@@ -66,14 +66,7 @@ const FAQ = () => {
               <AccordionItem value="item-7" className="border rounded-lg px-4 shadow-sm">
                 <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">Can I customize the app for my clinic?</AccordionTrigger>
                 <AccordionContent className="text-gray-700 pb-4">
-                  Yes, the Clinic tier ($24.99/month) and custom enterprise plans include options for custom branding, including your logo and color scheme. Additional customization options are available for enterprise clients, including custom terms, assessment tools, and integration with existing systems.
-                </AccordionContent>
-              </AccordionItem>
-              
-              <AccordionItem value="item-8" className="border rounded-lg px-4 shadow-sm">
-                <AccordionTrigger className="text-lg font-medium text-screenwise-navy py-4">Is training provided for therapists?</AccordionTrigger>
-                <AccordionContent className="text-gray-700 pb-4">
-                  Yes, we provide comprehensive training resources for all users. This includes video tutorials, user guides, and live webinar sessions for new users. Enterprise clients receive personalized onboarding and training sessions. Our support team is also available to answer questions and provide guidance.
+                  Yes, custom enterprise plans include options for custom branding, including your logo and color scheme. Additional customization options are available for enterprise clients, including custom terms, assessment tools, and integration with existing systems.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
