@@ -77,9 +77,7 @@ const OurStory = () => {
       <section className="section bg-screenwise-gray">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-3xl font-bold mb-6 text-screenwise-navy">Our Mission</h2>
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            We believe technology should bridge the gap between clinic and home, enhancing—never replacing—the human connection at the heart of effective therapy. Our platform empowers therapists to extend their impact beyond sessions and gives families the structure, support, and consistency they need to help their children thrive.
-          </p>
+          <p className="text-xl text-gray-600 mb-8 leading-relaxed">We believe technology should bridge the gap between clinic and home, enhancing—never replacing—the human connection at the heart of effective feeding therapy. Our platform empowers therapists to extend their impact beyond sessions and gives families the structure, support, and consistency they need to help their children thrive.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-6 mt-10">
             <Card className="border-2 border-gray-200 hover:border-screenwise-teal transition-all duration-300 flex-1">
               <CardContent className="pt-6">
