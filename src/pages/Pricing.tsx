@@ -1,7 +1,9 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
+
 const PricingTier = ({
   title,
   price,
@@ -36,6 +38,7 @@ const PricingTier = ({
       {ctaText}
     </Button>
   </div>;
+
 const Pricing = () => {
   return <Layout>
       <section className="pt-20 pb-12 md:py-24">
@@ -44,10 +47,35 @@ const Pricing = () => {
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">Start with a free trial and scale as you grow.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <PricingTier title="Free Trial" price="Free" clients="1 client profile, 1 therapist login" features={["Full access to YumEats app", "Basic meal logging", "Video incentives", "14-day trial period"]} ctaText="Try It Free" />
-            <PricingTier title="Starter" price="$7.99" clients="Up to 5 clients" features={["Everything in Free Trial", "Advanced meal analytics", "Customizable goal tracking", "Email support"]} ctaText="Get Started" />
-            <PricingTier title="Professional" price="$14.99" clients="Up to 10 clients" features={["Everything in Starter", "Team collaboration tools", "Advanced report generation", "Priority support"]} ctaText="Choose Plan" isFeatured={true} />
-            <PricingTier title="Clinic" price="$24.99" clients="Up to 20 clients" features={["Everything in Professional", "Multi-therapist access", "Custom branding options", "API access"]} ctaText="Choose Plan" />
+            <PricingTier 
+              title="Free Trial" 
+              price="Free" 
+              clients="1 client profile" 
+              features={["Access to YumEats app", "Access for 1 therapist", "14-day trial period"]} 
+              ctaText="Try It Free" 
+            />
+            <PricingTier 
+              title="Starter" 
+              price="$7.99" 
+              clients="Up to 5 clients" 
+              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              ctaText="Get Started" 
+            />
+            <PricingTier 
+              title="Professional" 
+              price="$14.99" 
+              clients="Up to 10 clients" 
+              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              ctaText="Choose Plan" 
+              isFeatured={true} 
+            />
+            <PricingTier 
+              title="Clinic" 
+              price="$24.99" 
+              clients="Up to 20 clients" 
+              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              ctaText="Choose Plan" 
+            />
           </div>
 
           <div className="mt-16 flex flex-col sm:flex-row justify-center gap-4">
@@ -98,4 +126,5 @@ const Pricing = () => {
       </section>
     </Layout>;
 };
+
 export default Pricing;
