@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
@@ -9,19 +8,14 @@ const PricingTier = ({
   price,
   clients,
   features,
-  ctaText,
-  isFeatured = false
+  ctaText
 }: {
   title: string;
   price: string;
   clients: string;
   features: string[];
   ctaText: string;
-  isFeatured?: boolean;
-}) => <div className={`flex flex-col rounded-2xl p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl ${isFeatured ? 'border-2 border-primary bg-white relative' : 'bg-white'}`}>
-    {isFeatured && <span className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-primary text-white text-xs font-bold py-1 px-3 rounded-full">
-        MOST POPULAR
-      </span>}
+}) => <div className="flex flex-col rounded-2xl p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl bg-white">
     <h3 className="text-xl font-bold text-screenwise-navy">{title}</h3>
     <div className="mt-4 mb-2">
       <span className="text-3xl font-bold text-screenwise-navy">{price}</span>
@@ -34,7 +28,7 @@ const PricingTier = ({
           <span className="text-sm">{feature}</span>
         </li>)}
     </ul>
-    <Button className={isFeatured ? "mt-auto bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full py-6" : "mt-auto bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full py-6"}>
+    <Button className="mt-auto bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full py-6">
       {ctaText}
     </Button>
   </div>;
@@ -67,7 +61,6 @@ const Pricing = () => {
               clients="Up to 10 clients" 
               features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Choose Plan" 
-              isFeatured={true} 
             />
             <PricingTier 
               title="Pro" 
