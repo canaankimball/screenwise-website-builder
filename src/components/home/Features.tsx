@@ -1,61 +1,60 @@
 
 import React from 'react';
-import { Smartphone, Brain, Heart, Clock, BarChart, Users } from 'lucide-react';
+import { FilePen, ChartBar, Target, Notebook, MessageSquare } from 'lucide-react';
 
 const features = [
   {
-    icon: <Smartphone className="h-10 w-10 text-screenwise-teal" />,
-    title: "Screen Time Awareness",
-    description: "Track and analyze how digital device usage impacts your eating habits."
+    icon: <FilePen className="h-10 w-10 text-screenwise-teal" />,
+    title: "Customizable Therapy Plans",
+    description: "Tailor treatment approaches to each child's specific feeding challenges and goals."
   },
   {
-    icon: <Brain className="h-10 w-10 text-screenwise-teal" />,
-    title: "Mindful Eating",
-    description: "Learn techniques to be more present and aware during meals."
+    icon: <ChartBar className="h-10 w-10 text-screenwise-teal" />,
+    title: "Data & Charts",
+    description: "Visualize progress with comprehensive analytics and data tracking for informed decision making."
   },
   {
-    icon: <Heart className="h-10 w-10 text-screenwise-teal" />,
-    title: "Balanced Nutrition",
-    description: "Receive personalized guidance for a healthier relationship with food."
+    icon: <Target className="h-10 w-10 text-screenwise-teal" />,
+    title: "Goal Setting",
+    description: "Create measurable objectives that adapt as children progress through their therapy journey."
   },
   {
-    icon: <Clock className="h-10 w-10 text-screenwise-teal" />,
-    title: "Meal Timing",
-    description: "Optimize when you eat to align with your digital lifestyle."
+    icon: <Notebook className="h-10 w-10 text-screenwise-teal" />,
+    title: "Meal Logs",
+    description: "Track detailed mealtime behaviors, food acceptance, and intervention effectiveness."
   },
   {
-    icon: <BarChart className="h-10 w-10 text-screenwise-teal" />,
-    title: "Progress Tracking",
-    description: "Monitor improvements in both eating habits and screen time."
-  },
-  {
-    icon: <Users className="h-10 w-10 text-screenwise-teal" />,
-    title: "Community Support",
-    description: "Connect with others on the same journey toward digital-food balance."
+    icon: <MessageSquare className="h-10 w-10 text-screenwise-teal" />,
+    title: "Secure Messaging",
+    description: "Maintain continuous communication between therapists and caregivers between sessions."
   }
 ];
 
 const Features = () => {
   return (
-    <section className="section bg-white" id="features">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">Our Features</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          ScreenWise Eating provides tools and resources to help you create a healthier balance between technology use and eating habits.
-        </p>
-      </div>
+    <section className="section bg-screenwise-light py-20" id="features">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-screenwise-navy">Key Features</h2>
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Our comprehensive platform provides everything feeding therapists and families need to succeed.
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map((feature, index) => (
-          <div 
-            key={index} 
-            className="card hover:border-screenwise-teal/30 hover:translate-y-[-5px] duration-300"
-          >
-            <div className="mb-4">{feature.icon}</div>
-            <h3 className="text-xl font-semibold mb-2 text-screenwise-navy">{feature.title}</h3>
-            <p className="text-gray-600">{feature.description}</p>
-          </div>
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 max-w-6xl mx-auto">
+          {features.map((feature, index) => (
+            <div 
+              key={index} 
+              className="flex flex-col items-center text-center hover-lift"
+            >
+              <div className="h-20 w-20 bg-screenwise-navy rounded-full flex items-center justify-center mb-4">
+                {feature.icon}
+              </div>
+              <h3 className="text-lg font-semibold mb-2 text-screenwise-navy">{feature.title}</h3>
+              <p className="text-sm text-gray-600">{feature.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

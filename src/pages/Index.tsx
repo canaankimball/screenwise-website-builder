@@ -15,6 +15,7 @@ const Index = () => {
   return (
     <Layout>
       <Hero />
+      <Features />
       <HowItWorks />
       <ClinicalValue />
       <Evidence />
