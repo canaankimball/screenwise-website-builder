@@ -51,21 +51,21 @@ const Pricing = () => {
               title="Free Trial" 
               price="Free" 
               clients="1 client profile" 
-              features={["Access to YumEats app", "Access for 1 therapist", "14-day trial period"]} 
+              features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Try It Free" 
             />
             <PricingTier 
               title="Starter" 
               price="$7.99" 
               clients="Up to 5 clients" 
-              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Get Started" 
             />
             <PricingTier 
               title="Professional" 
               price="$14.99" 
               clients="Up to 10 clients" 
-              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Choose Plan" 
               isFeatured={true} 
             />
@@ -73,7 +73,7 @@ const Pricing = () => {
               title="Clinic" 
               price="$24.99" 
               clients="Up to 20 clients" 
-              features={["Access to YumEats app", "Access for 1 therapist", "Full platform access"]} 
+              features={["Access for 1 therapist", "Client access to YumEats app"]} 
               ctaText="Choose Plan" 
             />
           </div>
