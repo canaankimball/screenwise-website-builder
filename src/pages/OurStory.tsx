@@ -1,54 +1,42 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
-
 const OurStory = () => {
-  const teamMembers = [
-    {
-      name: 'Canaan Kimball',
-      role: 'Co-Founder',
-      bio: 'Mechanical engineering and business student at Lehigh. Leads product and strategy. Passionate about building life-changing tools for families.',
-      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=200',
-      initials: 'CK'
-    },
-    {
-      name: 'Eric Markovcy',
-      role: 'Co-Founder',
-      bio: 'Strength coach and father of two. Inspired by his son\'s journey through feeding therapy. Drives partnerships and mission.',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=200',
-      initials: 'EM'
-    },
-    {
-      name: 'Evan Mazor',
-      role: 'Chief Technical Officer',
-      bio: 'Full-stack developer. Builds the therapist portal and mobile app. Product-focused and mission-aligned.',
-      image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=200',
-      initials: 'EM'
-    }
-  ];
-
-  const advisors = [
-    {
-      name: 'Dr. Laura Seiverling',
-      credentials: 'BCBA-D',
-      bio: 'Pediatric feeding psychologist and BCBA. Author, expert in feeding disorders. Advises clinical design.',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200',
-      initials: 'LS'
-    },
-    {
-      name: 'Sean Casey',
-      credentials: 'BCBA',
-      bio: 'Behavior analyst and clinic director. Advises on real-world implementation and caregiver coaching.',
-      image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=200',
-      initials: 'SC'
-    }
-  ];
-
-  return (
-    <Layout>
+  const teamMembers = [{
+    name: 'Canaan Kimball',
+    role: 'Co-Founder',
+    bio: 'Mechanical engineering and business student at Lehigh. Leads product and strategy. Passionate about building life-changing tools for families.',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=200',
+    initials: 'CK'
+  }, {
+    name: 'Eric Markovcy',
+    role: 'Co-Founder',
+    bio: 'Strength coach and father of two. Inspired by his son\'s journey through feeding therapy. Drives partnerships and mission.',
+    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=200',
+    initials: 'EM'
+  }, {
+    name: 'Evan Mazor',
+    role: 'Chief Technical Officer',
+    bio: 'Full-stack developer. Builds the therapist portal and mobile app. Product-focused and mission-aligned.',
+    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=200',
+    initials: 'EM'
+  }];
+  const advisors = [{
+    name: 'Dr. Laura Seiverling',
+    credentials: 'BCBA-D',
+    bio: 'Pediatric feeding psychologist and BCBA. Author, expert in feeding disorders. Advises clinical design.',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200',
+    initials: 'LS'
+  }, {
+    name: 'Sean Casey',
+    credentials: 'BCBA',
+    bio: 'Behavior analyst and clinic director. Advises on real-world implementation and caregiver coaching.',
+    image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=200',
+    initials: 'SC'
+  }];
+  return <Layout>
       {/* Hero Section */}
       <div className="pt-20 bg-screenwise-light bg-opacity-30">
         <div className="container mx-auto px-4 py-16 md:py-24">
@@ -66,11 +54,7 @@ const OurStory = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="absolute inset-0 bg-screenwise-teal rounded-2xl opacity-20 transform -rotate-2"></div>
-            <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" 
-              alt="Father and son" 
-              className="rounded-2xl shadow-xl w-full relative z-10"
-            />
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" alt="Father and son" className="rounded-2xl shadow-xl w-full relative z-10" />
           </div>
           <div className="order-1 md:order-2">
             <h2 className="text-3xl font-bold mb-6 text-screenwise-navy">Born from Real Need</h2>
@@ -101,7 +85,7 @@ const OurStory = () => {
               <CardContent className="pt-6">
                 <div className="text-4xl text-screenwise-teal mb-4">👪</div>
                 <h3 className="text-xl font-semibold mb-2 text-screenwise-navy">Support Families</h3>
-                <p className="text-gray-600">Provide tools and structure for home practice</p>
+                <p className="text-gray-600">Provide structure and stress-free data collection for mealtimes at home</p>
               </CardContent>
             </Card>
             <Card className="border-2 border-gray-200 hover:border-screenwise-teal transition-all duration-300 flex-1">
@@ -127,8 +111,7 @@ const OurStory = () => {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-screenwise-navy text-center">Our Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="card border-2 border-gray-200 hover:border-screenwise-teal">
+            {teamMembers.map((member, index) => <div key={index} className="card border-2 border-gray-200 hover:border-screenwise-teal">
                 <div className="flex flex-col items-center">
                   <Avatar className="w-32 h-32 mb-4 border-4 border-white shadow-md">
                     <AvatarImage src={member.image} alt={member.name} />
@@ -138,8 +121,7 @@ const OurStory = () => {
                   <p className="text-screenwise-teal font-medium mb-3">{member.role}</p>
                   <p className="text-gray-600 text-center">{member.bio}</p>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -149,8 +131,7 @@ const OurStory = () => {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-screenwise-navy text-center">Advisory Board</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {advisors.map((advisor, index) => (
-              <div key={index} className="card border-2 border-gray-200 hover:border-screenwise-teal bg-white">
+            {advisors.map((advisor, index) => <div key={index} className="card border-2 border-gray-200 hover:border-screenwise-teal bg-white">
                 <div className="flex flex-col md:flex-row md:items-center gap-6">
                   <Avatar className="w-24 h-24 md:w-32 md:h-32 border-4 border-white shadow-md mx-auto md:mx-0">
                     <AvatarImage src={advisor.image} alt={advisor.name} />
@@ -163,8 +144,7 @@ const OurStory = () => {
                     <p className="text-gray-600 mt-2">{advisor.bio}</p>
                   </div>
                 </div>
-              </div>
-            ))}
+              </div>)}
           </div>
         </div>
       </section>
@@ -186,8 +166,6 @@ const OurStory = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default OurStory;
