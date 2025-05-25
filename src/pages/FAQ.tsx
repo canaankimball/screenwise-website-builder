@@ -1,17 +1,9 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
-import { 
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger
-} from '@/components/ui/accordion';
-
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 const FAQ = () => {
-  return (
-    <Layout>
+  return <Layout>
       <section className="pt-20 pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
@@ -86,20 +78,15 @@ const FAQ = () => {
             
             
             <div className="mt-12 text-center">
-              <p className="text-lg text-gray-600 mb-6">
-                Don't see your question? We're here to help.
-              </p>
+              <p className="text-lg text-gray-600 mb-6">Don't see your question? We're here to help. 
+Send us an email at screenwiseeating@gmail.com!</p>
               <div className="flex justify-center">
-                <Button className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6">
-                  Contact Support
-                </Button>
+                
               </div>
             </div>
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default FAQ;
