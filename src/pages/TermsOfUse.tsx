@@ -238,6 +238,237 @@ const TermsOfUse = () => {
                 </div>
 
                 <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">USE OF THE SERVICES AND USER CONTENT RESTRICTIONS</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You represent and warrant that you will use the Services and any User Content solely for lawful purposes in a manner consistent with these Terms and any and all applicable laws, regulations, or other legally enforceable obligations (including contractual obligations) you may have with us and any third parties, all of which you are responsible for knowing and understanding.
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Use of the Services</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    By using the Services, you agree that User Content will comply with the User Content Guidelines in Section 11(b) of these Terms.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    By using the Services, you further agree that you will not:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2 mb-4">
+                    <li>Impersonate another person, or his or her email address, or misrepresent your current or former affiliation with an employer;</li>
+                    <li>Create user accounts under false or fraudulent pretenses, create or use an account for anyone other than yourself, or create multiple active user accounts to post multiple reviews for the same company;</li>
+                    <li>Promote, endorse, or further illegal activities;</li>
+                    <li>Disclose information in violation of any legally enforceable confidentiality, nondisclosure or other contractual restrictions or rights of any third party, including any current or former employers or potential employers;</li>
+                    <li>Violate the privacy, publicity, copyright, patent, trademark, trade secret, or other intellectual property or proprietary rights of any third party;</li>
+                    <li>Except as expressly approved by us, and subject to applicable laws, use the Services for commercial activities and/or promotions such as contests, sweepstakes, barter, pyramid schemes, advertising, affiliate links, or other forms of solicitation;</li>
+                    <li>Imply a YumEats endorsement or partnership of any kind without our prior express written permission;</li>
+                    <li>Introduce software or automated agents to the Services, or access YumEats or the Services so as to produce multiple accounts, generate automated messages, or to scrape, strip or mine data from YumEats or the Services without our express written permission;</li>
+                    <li>"Frame" or "mirror" or otherwise incorporate part of the Services into any website, or "deep-link" to any portion of YumEats or the Services without our express written permission;</li>
+                    <li>Copy or use the information, content, or data on the Services in connection with a competitive service, as determined by YumEats;</li>
+                    <li>Sell, resell, rent, lease, loan, trade, or otherwise monetize access to YumEats or the Services posted on the Site without our express written permission;</li>
+                    <li>Interfere with, disrupt, modify, reverse engineer, or decompile any data or functionality of YumEats or the Services;</li>
+                    <li>Interfere with, disrupt, or create an undue burden on YumEats or the Services or the networks or services connected to YumEats or the Services; or</li>
+                    <li>Introduce any viruses, Trojan horses, worms, time bombs, cancelbots, corrupted files, or similar software to YumEats or the Services or attempt to circumvent any security feature of YumEats or the Services;</li>
+                  </ul>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">User Content Guidelines</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    By submitting User Content or using the Services, you further agree that you will not, in connection with User Content, submit material that is contrary to the following guidelines, which may be updated from time to time, or contrary to applicable local, national, and international laws and regulations:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2 mb-4">
+                    <li>You will not submit any User Content that does not generally pertain to the designated topic or theme of the Site or the Services.</li>
+                    <li>You will not post images or comments that include: (i) pornographic or sexually explicit content; or (ii) showing graphic or gratuitous violence; and</li>
+                    <li>You will not submit User Content that is harassing, threatening, abusive, racist, incomplete, obscene, intimidating, offensive, bigoted, constitutes hate speech, infringes, violates another party's rights (including intellectual property rights, and rights of privacy and publicity), contains private information of any third party, or is otherwise objectionable (all as determined by us).</li>
+                  </ul>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">YumEats's Removal of User Content</h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    You understand and agree that we, without any obligation to do so, may monitor or review any User Content you post, upload or otherwise communicate through the Services. We reserve the right to remove any such User Content, in whole or in part, at our sole discretion, that violates these Terms, is likely to harm our reputation, is deemed inappropriate or otherwise poses a risk of harm to any other person. We reserve the right to deactivate your account or otherwise prevent your use and/or participation on Services at any time and for any reason.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">INTELLECTUAL PROPERTY INFRINGEMENT</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    YumEats respects the intellectual property rights of others, and we ask you to do the same. This section discusses infringement of intellectual property, including under the Digital Millennium Copyright Act, 17 USC Section 512 et seq. ("DMCA").
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Notice of Infringement</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    If you believe that your work is the subject of copyright infringement and/or trademark infringement and appears on the Site and/or in the Services, please provide YumEats's designated agent the following information:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2 mb-4">
+                    <li>A physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;</li>
+                    <li>Identification of the copyrighted and/or trademarked work claimed to have been infringed, or if multiple works at a single online location are covered by a single notification, a representative list of such works at that location;</li>
+                    <li>Identification of the material that is claimed to be infringing or to be the subject of infringing activity and that is to be removed or access to which is to be disabled at the Site, and information reasonably sufficient to permit YumEats to locate the material;</li>
+                    <li>Information reasonably sufficient to permit YumEats to contact you as the complaining party, such as an address, telephone number, and, if available, an e-mail address at which you may be contacted;</li>
+                    <li>A statement that you have a good-faith belief that use of the material in the manner complained of is not authorized by the copyright and/or trademark owner, its agent, or the law; and</li>
+                    <li>A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>
+                  </ul>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    YumEats's agent for notice of claims of copyright or trademark infringement can be reached at [insert copyright agent's institutional email address].
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Please also note that for copyright infringements under Section 512(f) of the DMCA, any person who knowingly materially misrepresents that material or activity is infringing may be subject to liability.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Submitting a DMCA Counter-Notification</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    We will notify you that we have removed or disabled access to copyright-protected material that you provided if such removal is pursuant to a valid DMCA take-down notice that we have received. If you receive such notice from us, you may provide us with a counter-notification, in writing, to YumEats's designated agent that includes all of the following information:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-700 leading-relaxed space-y-2 mb-4">
+                    <li>Your physical or electronic signature;</li>
+                    <li>Identification of the material that has been removed or to which access has been disabled, and the location at which the material appeared before it was removed or access to it was disabled;</li>
+                    <li>A statement from you, under penalty of perjury, that you have a good-faith belief that the material was removed or disabled as a result of a mistake or misidentification of the material to be removed or disabled; and</li>
+                    <li>Your name, physical address, and telephone number, and a statement that you consent to the jurisdiction of a court for the judicial district in which your physical address is located, or if your physical address is outside of the United States, for any judicial district in which YumEats may be located, and that you will accept service of process from the person who provided notification of allegedly infringing material or an agent of such person.</li>
+                  </ul>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Termination of Infringers</h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    YumEats reserves the right, at its sole discretion, to terminate the account or access of any user of the Site who is the subject of DMCA or other infringement notifications.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">AVAILABILITY</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We cannot and do not promise that the Site or the Services will be uninterrupted, secure, or error-free. We reserve the right to interrupt/suspend this Site or the Services, or any part thereof, with or without prior notice for any reason.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">ACCESS TO THE INTERNET</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You are solely responsible for obtaining and maintaining all internet, computer hardware and other equipment needed to access and use this Site and the Services, and you shall be solely responsible for all charges and fees related thereto.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Please note that the Internet is not a fully secure medium and any communication may be lost, intercepted or altered. YumEats is not liable for any damages related to communications to, or from, this Site or the Services.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">CURRENCY OF SITE</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    YumEats cannot and does not guarantee or accept any responsibility or liability for the accuracy, currency or completeness of the information on this Site and the Services. We have the right, but not the obligation, to correct any errors, inaccuracies or omissions and to change or update this Site (including the YumEats Materials) and the Services at any time, without prior notice to you.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">LINKS TO OTHER SITES AND SERVICES</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    This Site or the Services may contain links to outside services and resources, the availability and content of which YumEats does not control. The inclusion of these links does not imply that YumEats monitors or endorses these sites. We are not responsible for examining or evaluating, and we do not warrant the offering of these services and resources or the content of these websites. We do not assume any responsibility or liability for the actions, products, and content of these and any other websites. Any concerns regarding any such services or resources should be directed to the service or resource.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">SECURITY</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    YumEats makes no warranty whatsoever to you, express or implied, regarding the security of the Services, including with respect to the ability of unauthorized persons to intercept or access information transmitted by you through the Services. YumEats is not responsible for any losses resulting from the loss or theft of your device, the loss or theft of your information transmitted from or stored on your devices, or any losses arising from the use of your device by someone whom you have given access. You are required to notify us of any unauthorized use of the Services by using the contact information in the "Contact Information" section below.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    Due to technical difficulties with the internet, internet software or transmission problems could produce inaccurate or incomplete copies of information contained on this Site or the Services. Due to the ability to share certain content and materials, computer viruses or other destructive programs may also be inadvertently downloaded from this Site or the Services. YumEats recommends that you install appropriate anti-virus or other protective software.
+                  </p>
+                  <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
+                    <p className="font-semibold text-gray-800">
+                      YUMEATS SHALL NOT BE RESPONSIBLE OR LIABLE FOR ANY SOFTWARE, COMPUTER VIRUSES OR OTHER DESTRUCTIVE, HARMFUL OR DISRUPTIVE FILES OR PROGRAMS THAT MAY INFECT OR OTHERWISE IMPACT YOUR USE OF YOUR COMPUTER EQUIPMENT OR OTHER PROPERTY ON ACCOUNT OF YOUR ACCESS TO, USE OF, OR BROWSING ON THE SITE OR THE SERVICES OR YOUR DOWNLOADING OF ANY USER MATERIALS OR OTHER CONTENT FROM THIS WEBSITE.
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">SEVERABILITY/NO WAIVER</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    If any provision of these Terms of Use is found to be unenforceable, then that provision shall be deemed severable from these Terms of Use and shall not affect the validity and enforceability of any remaining provisions. YumEats's failure to enforce the strict performance of any provision of these Terms or the additional terms and conditions for any Service will not constitute a waiver of our right to subsequently enforce such provision or any other provisions of these Terms or the additional terms and conditions.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Sections 1 (Dispute Resolution) 17 (Security), 19 (Disclaimers: Site and Services and Materials Provided "As-Is"), 20 (Limitation of Liability), 21 (Indemnification), and 22 (Term and Termination) will survive any termination of expiry of these Terms.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">DISCLAIMERS: SITE, SERVICES AND MATERIALS PROVIDED "AS-IS"</h3>
+                  <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+                    <p className="font-semibold text-gray-800">
+                      THIS SITE, THE SERVICES AND THE YUMEATS MATERIALS ARE PROVIDED "AS IS," "WHERE IS," AND "WITH ALL FAULTS," WITHOUT REPRESENTATION, WARRANTY OR CONDITION OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED REPRESENTATIONS, WARRANTIES OR CONDITIONS OF MERCHANTABILITY, NON-INFRINGEMENT, OR FITNESS FOR A PARTICULAR PURPOSE. YUMEATS DOES NOT REPRESENT OR WARRANT THAT THIS SITE, THE SERVICES, OR THE YUMEATS MATERIALS WILL MEET YOUR REQUIREMENTS. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM YUMEATS, OR THROUGH THE SITE SHALL CREATE ANY WARRANTY REGARDING THE SERVICES NOT EXPRESSLY STATED IN THESE TERMS. YOU UNDERSTAND AND ACKNOWLEDGE THAT ADDITIONAL DISCLAIMERS, LIMITATIONS, AND NOTICES REGARDING THE SERVICES AND ITS CONTENT AND DATA MAY BE PROVIDED BY YUMEATS FROM TIME TO TIME WITHIN THE SERVICES.
+                    </p>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    These Terms were written in English (US). Any translated version is provided solely for your convenience using third party translation services such as Google Translate.
+                  </p>
+                  <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+                    <p className="font-semibold text-gray-800">
+                      WE DO NOT WARRANT THAT THE WEBSITE AND ITS SERVERS ARE FREE OF COMPUTER VIRUSES OR OTHER HARMFUL CONTENT. IF YOUR USE OF THE SERVICES, THE MATERIAL, OR THE SOFTWARE RESULTS IN THE NEED FOR SERVICING OR REPLACING EQUIPMENT OR DATA, WE ARE NOT RESPONSIBLE FOR THOSE COSTS.
+                    </p>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed">
+                    Please note that some jurisdictions do not allow the disclaimer of certain representations or warranties, so the disclaimer in this Section 19 will apply to you to the extent permitted by applicable law.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">LIMITATION OF LIABILITY</h3>
+                  <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+                    <p className="font-semibold text-gray-800">
+                      YOU AGREE THAT NONE OF THE PROTECTED PARTIES (AS DEFINED BELOW) SHALL HAVE ANY LIABILITY TO YOU UNDER ANY THEORY OF LIABILITY OR INDEMNITY IN CONNECTION WITH YOUR USE OF THE SITE AND/OR SERVICES. YOU HEREBY RELEASE AND FOREVER WAIVE ANY AND ALL CLAIMS YOU MAY HAVE AGAINST THE PROTECTED PARTIES (INCLUDING BUT NOT LIMITED TO CLAIMS BASED UPON THE NEGLIGENCE OF ANY OF THE PROTECTED PARTIES) FOR LOSSES OR DAMAGES YOU SUSTAIN IN CONNECTION WITH YOUR USE OF THE SITE AND/OR SERVICES. IN NO EVENT SHALL THE PROTECTED PARTIES BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY LOST PROFIT OR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF SERVICES, EVEN IF YOU HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+                    </p>
+                  </div>
+                  <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+                    <p className="font-semibold text-gray-800">
+                      NOTWITHSTANDING THE FOREGOING PARAGRAPH AND TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF THE PROTECTED PARTIES, FOR ANY CLAIM, COST, DAMAGE, OR LOSS ARISING OUT OF OR RELATING TO THE SERVICES, INCLUDING FOR ANY WARRANTIES THAT MAY NOT BE EXCLUDED, SHALL NOT EXCEED THE LESSER OF THE AMOUNT YOU PAID TO US DURING THE TWELVE (12) MONTHS PRIOR TO THE EVENT GIVING RISE TO THE LIABILITY OR $10.00 (TEN DOLLARS) (USD) (THE "LIABILITY CAP").
+                    </p>
+                  </div>
+                  <p className="text-gray-700 leading-relaxed">
+                    Some jurisdictions do not allow the exclusion or limitation of liability for certain types of damages. In such jurisdictions, our liability is limited to the greatest extent permitted by law.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">INDEMNIFICATION</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You will defend, indemnify, and hold YumEats, each third-party service provider, their respective affiliates, subsidiaries, and parent companies, and their respective officers, directors, employees, agents, information providers, and partners (collectively, the "Protected Parties") harmless from and against any actual or threatened suit, actions, proceedings (at law or in equity), claims, damages, payments, deficiencies, fines, judgments, settlements, liabilities, losses, costs, and expenses (including reasonable attorneys' fees, costs, penalties, interest, and disbursements) arising from or related to (a) your conduct with respect to the Services and/or (b) violation (or alleged violation) of these Terms by you or any other person accessing the Site or Services on your behalf. Under no circumstance will YumEats be liable for damages of any kind that result from your use of, or the inability to use, the Services.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Please note that some jurisdictions limit the extent to which a party may indemnify another. As such, this provision will apply to you to the extent permitted by applicable law.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">TERM & TERMINATION</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    YumEats may, from time to time, but is in no way obligated to, permit you to access and use this Site and the Services in accordance with these Terms of Use and in the manner more particularly set out herein. You acknowledge and agree (i) that access to this Site and the Services may not be available from time to time, may be amended, revised, replaced, suspended or terminated in whole or in part at any time and without notice, and (ii) that YumEats shall not, in any event, be responsible to you in any way should you be unable to access this Site and the Services at any time or from time to time. We may terminate these Terms of Use for convenience with no notice to you.
+                  </p>
+                  <p className="text-gray-700 leading-relaxed">
+                    Upon termination of these Terms of Use, you shall immediately cease and desist from all use of this Site and the Services.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">CHANGES</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You are responsible for reviewing these Terms regularly. YumEats reserves the right, at any time, without notice to you, and in its sole discretion, to modify or discontinue the Services, these Terms, or any of our policies related to use of the Services. We will not amend Section 1 (Dispute Resolution), in a manner that adversely affects your rights or responsibilities in a material manner unless we give you a right to reject the amendment and/or the Class Action Waiver in its entirety. Revisions to these Terms or our policies may be provided through the Services, including by posting the revisions on the Services and updating the "Last Updated" date. Continued use of the Services following such modifications to the Services, these Terms, additional terms and conditions for any service, or our other policies will constitute your acceptance of such modifications and revisions.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">MISCELLANEOUS</h3>
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Entire Agreement</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    These Terms constitute the entire agreement of the parties with respect to the subject matter hereof and supersede all previous written or oral agreements between the parties with respect to such subject matter. No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default.
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Headings</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    The section headings used in these Terms shall not be given any legal import.
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Assignment</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    These Terms of Use are not assignable, transferable, or sublicensable by you except with YumEats's prior written consent. YumEats may assign its rights and duties under these Terms of Use at any time without notice to you.
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Waiver</h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    No waiver by either party of any breach or default hereunder shall be deemed to be a waiver of any preceding or subsequent breach or default.
+                  </p>
+                </div>
+
+                <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">CONTACT INFORMATION</h3>
                   <p className="text-gray-700 leading-relaxed">
                     If you need to contact us regarding this Site, the Services or these Terms of Use you can contact YumEats at screenwiseeating@gmail.com.
