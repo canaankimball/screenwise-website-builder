@@ -86,7 +86,7 @@ const Navbar = () => {
             className="ml-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6"
             onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}
           >
-            Get Started
+            Start Free Trial
           </Button>
         </nav>
 
@@ -134,7 +134,7 @@ const Navbar = () => {
                 setIsOpen(false);
               }}
             >
-              Get Started
+              Start Free Trial
             </Button>
           </nav>
         </div>
