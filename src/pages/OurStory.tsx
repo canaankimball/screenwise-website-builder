@@ -4,7 +4,6 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const OurStory = () => {
   const teamMembers = [{
@@ -158,17 +157,17 @@ const OurStory = () => {
             We're building a future where every child with feeding challenges has access to consistent, effective support both in and out of the clinic.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link to="/product">
-              <Button className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg">
-                Learn About Our Platform <ArrowRight className="ml-2" size={18} />
-              </Button>
-            </Link>
+            <Button 
+              className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg"
+              onClick={() => window.location.href = '/product'}
+            >
+              Learn About Our Platform <ArrowRight className="ml-2" size={18} />
+            </Button>
             
             <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600"
               onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}>
               Book a Demo
             </Button>
-     
           </div>
         </div>
       </section>
