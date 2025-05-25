@@ -34,7 +34,7 @@ const OurStory = () => {
     name: 'Sean Casey',
     credentials: 'BCBA',
     bio: 'BCBA and director of Heartland Feeding clinc. Advises on app implementation and philosophy.',
-    image: '/lovable-uploads/b081938a-eed1-4c5d-a362-d9cea7227cac.png',
+    image: '/lovable-uploads/989261f3-225d-447b-a4dd-5a0fb8025969.png',
     initials: 'SC'
   }];
   return <Layout>
