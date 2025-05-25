@@ -25,7 +25,7 @@ const Footer = () => {
               <a href="https://www.instagram.com/screenwise_yumeats/" className="hover:text-screenwise-teal transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="hover:text-screenwise-teal transition-colors">
+              <a href="https://www.linkedin.com/company/103432499/admin/dashboard/" className="hover:text-screenwise-teal transition-colors">
                 <Linkedin size={20} />
               </a>
             </div>
