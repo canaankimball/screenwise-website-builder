@@ -6,6 +6,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
+
 const ProductFeature = ({
   icon,
   title,
@@ -25,6 +26,7 @@ const ProductFeature = ({
       </div>
     </div>
   </div>;
+
 const ClinicalFeature = ({
   title,
   description,
@@ -38,12 +40,15 @@ const ClinicalFeature = ({
     </div>
     <p className="text-sm text-gray-600">{description}</p>
   </div>;
+
 const Product = () => {
   const [openSection, setOpenSection] = useState(null);
   const toggleSection = section => {
     setOpenSection(openSection === section ? null : section);
   };
-  return <Layout>
+  
+  return (
+    <Layout>
       {/* Hero Section */}
       <div className="bg-screenwise-light bg-opacity-30 pt-20">
         <div className="container mx-auto px-4 py-16 md:py-24">
@@ -71,11 +76,11 @@ const Product = () => {
 
               <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>} title="Log Activity" description="Securely record session details, notes, and behavior observations for each client in one centralized location." image="/lovable-uploads/bed1a8c7-0e3a-4161-bdb3-91e865147172.png" />
 
-              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>} title="Charts and Graphs" description="Visualize mealtime data using customizable dashboards that help identify patterns and track progress over time." image="/lovable-uploads/fb647bf2-d419-47a3-8b89-c7d06b6e6b8f.png" />
+              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2m0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>} title="Charts and Graphs" description="Visualize mealtime data using customizable dashboards that help identify patterns and track progress over time." image="/lovable-uploads/fb647bf2-d419-47a3-8b89-c7d06b6e6b8f.png" />
 
-              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" /></svg>} title="Set Goals" description="Define individualized feeding goals for each client with measurable objectives that adapt as children progress." image="/lovable-uploads/846443a3-6be8-49ed-853f-39ddcb883d1b.png" />
+              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2m0 4h.01M9 16h.01" /></svg>} title="Set Goals" description="Define individualized feeding goals for each client with measurable objectives that adapt as children progress." image="/lovable-uploads/846443a3-6be8-49ed-853f-39ddcb883d1b.png" />
 
-              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>} title="Adjust Interventions" description="Modify chew intervals, reward timing, and prompts in real-time to optimize each therapy session for your client." image="/lovable-uploads/e9bfcf3a-27cf-411c-85d3-61de96454052.png" />
+              <ProductFeature icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" /></svg>} title="Adjust Interventions" description="Modify chew intervals, reward timing, and prompts in real-time to optimize each therapy session for your client." image="/lovable-uploads/e9bfcf3a-27cf-411c-85d3-61de96454052.png" />
             </div>
 
             {/* YumEats Mobile App Column */}
@@ -152,7 +157,7 @@ const Product = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Updated first CTA Section */}
       <section className="py-16 px-4 md:px-8 bg-gradient-to-r from-screenwise-navy to-screenwise-teal-dark text-white">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Feeding Therapy Practice?</h2>
@@ -169,6 +174,8 @@ const Product = () => {
           </div>
         </div>
       </section>
-    </Layout>;
+    </Layout>
+  );
 };
+
 export default Product;
