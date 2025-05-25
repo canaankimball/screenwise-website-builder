@@ -5,7 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const OurStory = () => {
   const teamMembers = [{
     name: 'Canaan Kimball',
@@ -164,7 +163,7 @@ const OurStory = () => {
               </Button>
             </Link>
             <Link to="/contact">
-              <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-white hover:bg-white hover:text-screenwise-navy">
+              <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600">
                 Contact Us <ArrowRight className="ml-2" size={18} />
               </Button>
             </Link>
@@ -173,5 +172,4 @@ const OurStory = () => {
       </section>
     </Layout>;
 };
-
 export default OurStory;
