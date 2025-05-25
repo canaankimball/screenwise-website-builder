@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
@@ -6,15 +7,11 @@ import { Check } from 'lucide-react';
 const PricingTier = ({
   title,
   price,
-  clients,
-  features,
-  ctaText
+  clients
 }: {
   title: string;
   price: string;
   clients: string;
-  features: string[];
-  ctaText: string;
 }) => <div className="flex flex-col rounded-2xl p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl bg-white border-2 border-gray-200">
     <h3 className="text-xl font-bold text-screenwise-navy">{title}</h3>
     <div className="mt-4 mb-2">
@@ -22,15 +19,6 @@ const PricingTier = ({
       {price !== 'Free' && <span className="text-gray-500 text-sm">/month</span>}
     </div>
     <p className="text-gray-600 mb-4">{clients}</p>
-    <ul className="flex flex-col space-y-2 mb-8 flex-grow">
-      {features.map((feature, index) => <li key={index} className="flex items-start">
-          <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
-          <span className="text-sm">{feature}</span>
-        </li>)}
-    </ul>
-    <Button className="mt-auto bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full py-6">
-      {ctaText}
-    </Button>
   </div>;
 
 const Pricing = () => {
@@ -41,35 +29,42 @@ const Pricing = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-screenwise-navy mb-6">Simple, transparent pricing</h1>
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">Start with a free trial and scale as you grow.</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <PricingTier 
               title="Free Trial" 
               price="Free" 
               clients="1 client profile" 
-              features={["Access for 1 therapist", "Client access to YumEats app"]} 
-              ctaText="Try It Free" 
             />
             <PricingTier 
               title="Starter" 
               price="$7.99" 
               clients="Up to 5 clients" 
-              features={["Access for 1 therapist", "Client access to YumEats app"]} 
-              ctaText="Get Started" 
             />
             <PricingTier 
               title="Basic" 
               price="$14.99" 
               clients="Up to 10 clients" 
-              features={["Access for 1 therapist", "Client access to YumEats app"]} 
-              ctaText="Get Started" 
             />
             <PricingTier 
               title="Pro" 
               price="$24.99" 
               clients="Up to 20 clients" 
-              features={["Access for 1 therapist", "Client access to YumEats app"]} 
-              ctaText="Get Started" 
             />
+          </div>
+
+          {/* Features list moved here */}
+          <div className="mb-12 max-w-md mx-auto">
+            <h3 className="text-lg font-semibold text-screenwise-navy mb-4">All plans include:</h3>
+            <ul className="flex flex-col space-y-2 text-left">
+              <li className="flex items-start">
+                <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
+                <span className="text-sm">Access for 1 therapist</span>
+              </li>
+              <li className="flex items-start">
+                <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
+                <span className="text-sm">Client access to YumEats app</span>
+              </li>
+            </ul>
           </div>
 
           <div className="mt-16 flex flex-col sm:flex-row justify-center gap-4">
