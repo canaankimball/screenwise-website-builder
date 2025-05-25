@@ -1,8 +1,10 @@
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+
 const Hero = () => {
-  return <section className="relative overflow-hidden bg-gradient-to-br from-white to-screenwise-light pt-20 pb-16 md:pt-32 md:pb-24">
+  return (
+    <section className="relative overflow-hidden bg-gradient-to-br from-white to-screenwise-light pt-20 pb-16 md:pt-32 md:pb-24">
       {/* Background decorative elements */}
       <div className="absolute top-20 left-10 w-64 h-64 bg-screenwise-teal opacity-5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-80 h-80 bg-screenwise-navy opacity-5 rounded-full blur-3xl"></div>
@@ -23,7 +25,10 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{
             animationDelay: '0.4s'
           }}>
-              <Button className="hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center bg-violet-700 hover:bg-violet-600">
+              <Button 
+                className="hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center bg-violet-700 hover:bg-violet-600"
+                onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
+              >
                 Request a Demo <ArrowRight className="ml-2" size={18} />
               </Button>
               <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6 text-lg shadow-sm hover:shadow-md transform hover:-translate-y-1 transition-all duration-300">
@@ -54,6 +59,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Hero;

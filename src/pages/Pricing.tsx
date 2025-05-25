@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
@@ -35,7 +34,8 @@ const PricingTier = ({
   </div>;
 
 const Pricing = () => {
-  return <Layout>
+  return (
+    <Layout>
       <section className="pt-20 pb-12 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-screenwise-navy mb-6">Simple, transparent pricing</h1>
@@ -76,7 +76,10 @@ const Pricing = () => {
             <Button className="bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6">
               Start Free Trial
             </Button>
-            <Button className="bg-screenwise-teal text-white hover:bg-screenwise-teal-dark rounded-full px-8 py-6">
+            <Button 
+              className="bg-screenwise-teal text-white hover:bg-screenwise-teal-dark rounded-full px-8 py-6"
+              onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
+            >
               Book Demo
             </Button>
           </div>
@@ -118,7 +121,8 @@ const Pricing = () => {
           </div>
         </div>
       </section>
-    </Layout>;
+    </Layout>
+  );
 };
 
 export default Pricing;

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Button } from '@/components/ui/button';
@@ -47,7 +46,10 @@ const Enterprise = () => {
             <p className="text-lg text-gray-600 mb-8">
               Comprehensive digital wellness programs for large organizations
             </p>
-            <Button className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6 py-3">
+            <Button 
+              className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6 py-3"
+              onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
+            >
               Request Enterprise Demo
             </Button>
           </div>
