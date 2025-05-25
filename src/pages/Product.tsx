@@ -153,7 +153,8 @@ const Product = () => {
             Join therapists nationwide who are improving clinical outcomes with our specialized platform
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg">
+            <Button className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg"
+               onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}>
               Start Your Free Trial
             </Button>
             <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600" onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}>
