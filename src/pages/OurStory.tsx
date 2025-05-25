@@ -9,19 +9,19 @@ const OurStory = () => {
     name: 'Canaan Kimball',
     role: 'Co-Founder',
     bio: 'Mechanical engineering and business student at Lehigh. Leads product and strategy. Passionate about building life-changing tools for families.',
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=200',
+    image: '/lovable-uploads/d21c5a4a-3523-4173-8f8f-82adfcaf660d.png',
     initials: 'CK'
   }, {
     name: 'Eric Markovcy',
     role: 'Co-Founder',
     bio: 'Strength coach and father of two. Inspired by his son\'s journey through feeding therapy. Drives partnerships and mission.',
-    image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=200',
+    image: '/lovable-uploads/76d82bf8-a4cc-4cea-9972-8125a08ed6bf.png',
     initials: 'EM'
   }, {
     name: 'Evan Mazor',
     role: 'Chief Technical Officer',
     bio: 'Full-stack developer. Builds the therapist portal and mobile app. Product-focused and mission-aligned.',
-    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=200',
+    image: '/lovable-uploads/13805f21-a75a-4236-ae21-8ed70bd295be.png',
     initials: 'EM'
   }];
   const advisors = [{
