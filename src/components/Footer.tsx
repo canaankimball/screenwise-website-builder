@@ -10,9 +10,7 @@ const Footer = () => {
             <Link to="/" className="inline-block mb-6">
               <img src="/lovable-uploads/5cab5ef1-a411-413d-8ba7-ca15b6162039.png" alt="ScreenWise Eating Logo" className="h-12 brightness-200" />
             </Link>
-            <p className="text-gray-300 mb-6">
-              Helping people develop healthier relationships with food and technology.
-            </p>
+            <p className="text-gray-300 mb-6">Empowering feeding therapists to deliver more effective, data-driven care.</p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-screenwise-teal transition-colors">
                 <Facebook size={20} />
@@ -68,7 +66,7 @@ const Footer = () => {
               
               <li className="flex items-center">
                 <Phone size={20} className="mr-3 text-screenwise-teal" />
-                <span className="text-gray-300">(123) 456-7890</span>
+                <span className="text-gray-300">(904) 540-2911</span>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="mr-3 text-screenwise-teal" />
