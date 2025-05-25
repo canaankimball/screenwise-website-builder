@@ -87,7 +87,7 @@ const Pricing = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-screenwise-navy mb-4">Need access for more than 1 therapist?</h2>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">We offer custom pricing for larger clinics, schools, and companies looking to empower multiple therapists.</p>
           <Button className="bg-screenwise-teal text-white hover:bg-screenwise-teal-dark rounded-full px-8 py-6">
-            Contact Us
+            Send us an inquiry
           </Button>
         </div>
       </section>
