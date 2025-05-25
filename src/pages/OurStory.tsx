@@ -162,11 +162,12 @@ const OurStory = () => {
                 Learn About Our Platform <ArrowRight className="ml-2" size={18} />
               </Button>
             </Link>
-            <Link to="/contact">
-              <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600">
-                Contact Us <ArrowRight className="ml-2" size={18} />
-              </Button>
-            </Link>
+            
+            <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600"
+              onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}>
+              Book a Demo
+            </Button>
+     
           </div>
         </div>
       </section>
