@@ -16,7 +16,7 @@ const CTA = () => {
             className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg"
             onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
           >
-            Request Demo <ArrowRight className="ml-2" size={18} />
+            Schedule a Demo <ArrowRight className="ml-2" size={18} />
           </Button>
           <Button 
             variant="outline" 
