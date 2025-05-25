@@ -51,7 +51,7 @@ const OurStory = () => {
               className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-3"
               onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
             >
-              Schedule Demo <ArrowRight className="ml-2" size={18} />
+              Book Demo <ArrowRight className="ml-2" size={18} />
             </Button>
           </div>
         </div>

@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -31,9 +33,11 @@ const Hero = () => {
               >
                 Request a Demo <ArrowRight className="ml-2" size={18} />
               </Button>
-              <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6 text-lg shadow-sm hover:shadow-md transform hover:-translate-y-1 transition-all duration-300">
-                How It Works
-              </Button>
+              <Link to="/product">
+                <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6 text-lg shadow-sm hover:shadow-md transform hover:-translate-y-1 transition-all duration-300">
+                  How It Works
+                </Button>
+              </Link>
             </div>
           </div>
           
