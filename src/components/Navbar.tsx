@@ -51,7 +51,7 @@ const Navbar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="nav-link bg-transparent hover:bg-transparent focus:bg-transparent data-[state=open]:bg-transparent px-0">
+                <NavigationMenuTrigger className="nav-link bg-transparent hover:bg-transparent focus:bg-transparent data-[state=open]:bg-transparent px-3 py-2">
                   Resources
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="bg-white">
@@ -82,7 +82,6 @@ const Navbar = () => {
             </NavigationMenuList>
           </NavigationMenu>
           
-          <Link to="/contact" className="nav-link">Contact Us</Link>
           <Button className="ml-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6">Get Started</Button>
         </nav>
 
@@ -123,7 +122,6 @@ const Navbar = () => {
               </div>
             </div>
             
-            <Link to="/contact" className="text-xl" onClick={() => setIsOpen(false)}>Contact Us</Link>
             <Button className="mt-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-3 text-lg w-full">
               Get Started
             </Button>
