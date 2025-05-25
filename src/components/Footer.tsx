@@ -55,9 +55,6 @@ const Footer = () => {
                   <ChevronRight size={16} className="mr-2" /> FAQ
                 </Link>
               </li>
-              <li>
-                
-              </li>
             </ul>
           </div>
 
@@ -76,16 +73,26 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Legal */}
           <div>
-            <h4 className="text-lg font-medium mb-4">Newsletter</h4>
-            <p className="text-gray-300 mb-4">Subscribe to our newsletter for updates.</p>
-            <form className="flex flex-col space-y-2">
-              <input type="email" placeholder="Your email" className="px-4 py-2 rounded-md bg-white/10 text-white border border-white/20 focus:outline-none focus:border-screenwise-teal" />
-              <button type="submit" className="px-4 py-2 bg-screenwise-teal text-white rounded-md hover:bg-screenwise-teal-dark transition-colors">
-                Subscribe
-              </button>
-            </form>
+            <h4 className="text-lg font-medium mb-4">Legal</h4>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/terms-of-use" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Terms of Use
+                </Link>
+              </li>
+              <li>
+                <Link to="/privacy-policy" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link to="/consumer-health-data-privacy-policy" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> Consumer Health Data Privacy Policy
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
