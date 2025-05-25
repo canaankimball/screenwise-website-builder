@@ -26,15 +26,15 @@ const OurStory = () => {
   }];
   const advisors = [{
     name: 'Dr. Laura Seiverling',
-    credentials: 'BCBA-D',
+    credentials: 'BCBA',
     bio: 'Eating disorder psychologist and BCBA. Author of Broccoli Boot Camp, expert in feeding disorders. Advises clinical design.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200',
+    image: '/lovable-uploads/6a6f8844-a163-450c-824f-4f4843c3c3f1.png',
     initials: 'LS'
   }, {
     name: 'Sean Casey',
     credentials: 'BCBA',
     bio: 'BCBA and director of Heartland Feeding clinc. Advises on app implementation and philosophy.',
-    image: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&q=80&w=200',
+    image: '/lovable-uploads/b081938a-eed1-4c5d-a362-d9cea7227cac.png',
     initials: 'SC'
   }];
   return <Layout>
