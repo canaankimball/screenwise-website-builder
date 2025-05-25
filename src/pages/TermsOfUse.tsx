@@ -184,6 +184,60 @@ const TermsOfUse = () => {
                 </div>
 
                 <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">OUR MATERIALS</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    YumEats may make certain digital reproductions of materials, information, content, software, or other materials (including but not limited to intellectual property, database rights, graphics, videos, text, and logos) available to you from this Site from time to time (collectively, the "YumEats Materials").
+                  </p>
+                  
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Intellectual Property</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    The Services, YumEats Materials, information downloaded, and all intellectual property pertaining to or contained on the Services (including but not limited to copyrights, patents, database rights, graphics, designs, text, logos, trade dress, trademarks, and service marks) are owned by YumEats or third parties; all rights, title, and interest will remain the property of YumEats and/or such third-party owner, as applicable. All YumEats Materials are protected by trade dress, copyright, patent, and trademark laws, as well as various other intellectual property and unfair competition laws.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Copies of YumEats Materials</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You are authorized to view and retain a copy of pages of the Services only for your own personal, non-commercial use. You may also view and make copies of relevant documents, pages, images, or other materials on the Services for the purpose of transacting business with us. You may not tokenize copies of the pages of the Services or any other content on the Services. You agree that you will not duplicate, publish, modify, create derivative works from, participate in the transfer of, or in any way distribute or exploit the Services, or any portion of the Services, for any public or commercial use, without our prior express written consent. Additionally, you agree that you: (a) will not remove or alter any author, trademark, other proprietary notice, or legend displayed on the Services (or printed pages produced from the Services), and (b) will not make any other modifications to any documents obtained from the Services other than in connection with completing information required to transact business with YumEats.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">License to Use YumEats Materials</h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    By using the Services, we grant you a non-exclusive, non-transferrable, non-sublicensable right and license to use the YumEats Materials for your personal use only. If you download, access or use any YumEats Materials, you agree that such materials: (i) may only be used for your personal use; (ii) may not be modified, used to create a derivative work, incorporated into any other work or otherwise exploited without YumEats's prior written permission; (iii) shall not be submitted to, processed by, or otherwise fed into any artificial intelligence or automated processing software; and (iv) shall only be used in compliance with any additional license terms accompanying such materials.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-screenwise-navy mb-4">USER CONTENT</h3>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You are solely responsible for the content and information (collectively referred to as "User Content") that you post or upload on the Services including feedback or questions.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">License for YumEats for User Content</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    By submitting User Content to the Services, you automatically grant YumEats the royalty-free, perpetual, worldwide, irrevocable, non-exclusive right and license, but not the obligation, to use, publish, reproduce, modify, adapt, edit, translate, create derivative works from, incorporate into other works, distribute, sub-license and otherwise exploit such User Content (in whole or in part) worldwide in any form, media or technology now known or hereafter developed for the full term of any copyright that may exist in such User Content, without payment to you or to any third parties. You acknowledge and agree that this license includes the right to reproduce User Content, including any personal information or your likeness, for marketing and advertising purposes.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">YumEats's Use of User Content</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    You agree that we may access, preserve and disclose your account and any User Content posted, uploaded, received or otherwise communicated if required to do so by law or with the good faith belief that such access, preservation or disclosure is reasonably necessary to: (i) comply with an enforceable subpoena or other legal process; (ii) enforce these Terms; (iii) respond to claims that any information violates the rights of third parties; (iv) respond to your requests for customer service or allow you to use the Services in the future; or (v) protect the rights, property or personal safety of YumEats or its members, employees, agents, affiliates, partners, communities or any other person.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">User Content is Non-Confidential</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    User Content submitted by you will be considered non-confidential and YumEats is under no obligation to treat such User Content as proprietary information. Without limiting the foregoing, we reserve the right to use any User Content as it deems appropriate, including, without limitation, deleting, editing, modifying, rejecting, or refusing to post it. YumEats is under no obligation to edit, delete or otherwise modify User Content once it has been submitted to us. We shall have no duty to attribute authorship of User Content to you, and shall not be obligated to enforce any form of attribution by third parties.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Moral Rights</h4>
+                  <p className="text-gray-700 leading-relaxed mb-4">
+                    If it is determined that you retain moral rights (including rights of attribution or integrity) in the User Content, you hereby declare that (a) you do not require that any personal data, personal information, personally identifying information, or equivalent term be used in connection with the User Content, or any derivative works of or upgrades or updates thereto; (b) you have no objection to the publication, use, modification, deletion and exploitation of the User Content by YumEats or its licensees, successors and assigns; (c) you forever waive and agree not to claim or assert any entitlement to any and all moral rights of an author in any of the User Content; and (d) you forever release YumEats, and its licensees, successors and assigns, from any claims that you could otherwise assert against YumEats, or any of its assigns or affiliates, by virtue of any such moral rights. You also permit any other user to access, view, store, or reproduce the User Content for that user's personal use.
+                  </p>
+
+                  <h4 className="text-xl font-semibold text-gray-800 mb-3">Disclaimer</h4>
+                  <p className="text-gray-700 leading-relaxed">
+                    Please note that we do not make any representations, warranties or guarantees that: (i) the Site, the Services, or any portion thereof, will be monitored (e.g., for accuracy or unacceptable use); (ii) apparent statements of fact will be authenticated; or (iii) we will take any specific action (or any action at all) in the event of a challenge or dispute regarding compliance or non-compliance with these Terms of Use. We generally do not pre-screen any communications, content or other materials before it is posted, uploaded, transmitted, sent or otherwise made available on the Site or through the Services by users, so you may be exposed to certain communications, content or other materials that is opinionated, offensive, inappropriate, and/or violates these Terms of Use.
+                  </p>
+                </div>
+
+                <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">CONTACT INFORMATION</h3>
                   <p className="text-gray-700 leading-relaxed">
                     If you need to contact us regarding this Site, the Services or these Terms of Use you can contact YumEats at screenwiseeating@gmail.com.
