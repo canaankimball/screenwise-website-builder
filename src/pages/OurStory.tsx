@@ -5,6 +5,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
 const OurStory = () => {
   const teamMembers = [{
     name: 'Canaan Kimball',
@@ -127,7 +128,7 @@ const OurStory = () => {
       </section>
 
       {/* Advisory Board Section */}
-      <section className="section bg-screenwise-light bg-opacity-50">
+      <section id="advisory-board" className="section bg-screenwise-light bg-opacity-50">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-screenwise-navy text-center">Advisory Board</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
