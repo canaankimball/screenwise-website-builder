@@ -6,7 +6,6 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible';
 import { ChartContainer, ChartTooltip, ChartTooltipContent } from '@/components/ui/chart';
-
 const ProductFeature = ({
   icon,
   title,
@@ -26,7 +25,6 @@ const ProductFeature = ({
       </div>
     </div>
   </div>;
-
 const ClinicalFeature = ({
   title,
   description,
@@ -40,15 +38,12 @@ const ClinicalFeature = ({
     </div>
     <p className="text-sm text-gray-600">{description}</p>
   </div>;
-
 const Product = () => {
   const [openSection, setOpenSection] = useState(null);
   const toggleSection = section => {
     setOpenSection(openSection === section ? null : section);
   };
-  
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero Section */}
       <div className="bg-screenwise-light bg-opacity-30 pt-20">
         <div className="container mx-auto px-4 py-16 md:py-24">
@@ -100,17 +95,7 @@ const Product = () => {
           </div>
           
           {/* Adding CTA buttons under the dual column section */}
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mt-16">
-            <Button variant="outline" className="bg-white text-screenwise-navy border-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6">
-              Start Free Trial
-            </Button>
-            <Button 
-              className="bg-screenwise-teal text-white hover:bg-screenwise-teal-dark rounded-full px-8 py-6"
-              onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
-            >
-              Schedule Demo
-            </Button>
-          </div>
+          
         </div>
       </section>
 
@@ -171,18 +156,12 @@ const Product = () => {
             <Button className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg">
               Start Your Free Trial
             </Button>
-            <Button 
-              variant="outline" 
-              className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600"
-              onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}
-            >
+            <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600" onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}>
               Schedule a Demo
             </Button>
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Product;
