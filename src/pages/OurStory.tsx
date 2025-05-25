@@ -3,6 +3,7 @@ import Layout from '@/components/Layout';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
 import { ArrowRight } from 'lucide-react';
+
 const OurStory = () => {
   const teamMembers = [{
     name: 'Canaan Kimball',
@@ -54,7 +55,7 @@ const OurStory = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 relative">
             <div className="absolute inset-0 bg-screenwise-teal rounded-2xl opacity-20 transform -rotate-2"></div>
-            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" alt="Father and son" className="rounded-2xl shadow-xl w-full relative z-10" />
+            <img src="/lovable-uploads/15dbf675-466c-4a42-b0a5-381d1b46347e.png" alt="Family mealtime" className="rounded-2xl shadow-xl w-full relative z-10" />
           </div>
           <div className="order-1 md:order-2">
             <h2 className="text-3xl font-bold mb-6 text-screenwise-navy">Born from Real Need</h2>
@@ -166,4 +167,5 @@ const OurStory = () => {
       </section>
     </Layout>;
 };
+
 export default OurStory;
