@@ -92,10 +92,12 @@ const SupportingResearch = () => {
                 Experience how our research-backed platform can transform feeding therapy outcomes.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
-                <Button className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6">
+                <Button className="bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-6"
+                    onClick={() => window.open('https://calendly.com/canaankimball/30min', '_blank')}>
                   Request a Demo
                 </Button>
-                <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6">
+                <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-6"
+                   onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}>
                   Start Free Trial
                 </Button>
               </div>
