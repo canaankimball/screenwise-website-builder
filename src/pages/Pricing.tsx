@@ -58,20 +58,21 @@ const Pricing = () => {
             <ul className="flex flex-col space-y-2 text-left">
               <li className="flex items-start">
                 <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Access for 1 therapist</span>
+                <span className="text-sm">Full control and data management tools for one primary therapist</span>
               </li>
               <li className="flex items-start">
                 <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
-                <span className="text-sm">Client access to YumEats app</span>
+                <span className="text-sm">Unlimited read-only access for supporting professionals (e.g., dietitians, pediatricians)</span>
+              </li>
+              <li className="flex items-start">
+                <Check size={18} className="text-screenwise-teal mr-2 mt-0.5 flex-shrink-0" />
+                <span className="text-sm">Individual app access for each client to follow therapy plans and track progress</span>
               </li>
             </ul>
           </div>
 
           <div className="mt-16 flex flex-col sm:flex-row justify-center gap-4">
-            <Button 
-              className="bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6"
-              onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}
-            >
+            <Button className="bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6">
               Start Free Trial
             </Button>
             <Button 
