@@ -139,7 +139,7 @@ const Product = () => {
                 icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" /></svg>}
                 title="Incentivized Mealtime"
                 description="Child-friendly app delivers structured screen-based rewards for bites, making mealtime more engaging and effective."
-                image="https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80&w=600"
+                image="/lovable-uploads/9795f605-3823-4adc-9823-ffe829b190e0.png"
               />
 
               <ProductFeature
@@ -160,7 +160,7 @@ const Product = () => {
                 icon={<svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-screenwise-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>}
                 title="Statistics for Tracking"
                 description="Caregivers can monitor meal duration, bites per meal, and other key metrics to see real progress over time."
-                image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600"
+                image="/lovable-uploads/0f8d77d1-9f5e-4262-b4b0-75dcc9423cd9.png"
               />
             </div>
           </div>
