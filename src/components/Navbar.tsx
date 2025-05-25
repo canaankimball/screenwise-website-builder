@@ -82,7 +82,12 @@ const Navbar = () => {
             </NavigationMenuList>
           </NavigationMenu>
           
-          <Button className="ml-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6">Get Started</Button>
+          <Button 
+            className="ml-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-6"
+            onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}
+          >
+            Get Started
+          </Button>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -122,7 +127,13 @@ const Navbar = () => {
               </div>
             </div>
             
-            <Button className="mt-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-3 text-lg w-full">
+            <Button 
+              className="mt-4 bg-screenwise-teal hover:bg-screenwise-teal-dark text-white rounded-full px-8 py-3 text-lg w-full"
+              onClick={() => {
+                window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank');
+                setIsOpen(false);
+              }}
+            >
               Get Started
             </Button>
           </nav>

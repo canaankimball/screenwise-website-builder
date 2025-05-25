@@ -68,7 +68,10 @@ const Pricing = () => {
           </div>
 
           <div className="mt-16 flex flex-col sm:flex-row justify-center gap-4">
-            <Button className="bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6">
+            <Button 
+              className="bg-white border border-screenwise-navy text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6"
+              onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}
+            >
               Start Free Trial
             </Button>
             <Button 
