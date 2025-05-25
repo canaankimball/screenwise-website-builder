@@ -12,7 +12,7 @@ const CTA = () => {
           <Button className="rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 bg-violet-700 hover:bg-violet-600 text-slate-50">
             Request Demo <ArrowRight className="ml-2" size={18} />
           </Button>
-          <Button variant="outline" className="border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center">
+          <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center text-teal-50 bg-teal-600 hover:bg-teal-500">
             Contact Our Team <MessageSquare className="ml-2" size={18} />
           </Button>
         </div>
