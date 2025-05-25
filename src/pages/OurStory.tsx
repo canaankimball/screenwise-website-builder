@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import { Card, CardContent } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
 
 const OurStory = () => {
@@ -149,19 +150,19 @@ const OurStory = () => {
       </section>
 
       {/* Call to Action */}
-      <section className="section bg-screenwise-navy text-white">
-        <div className="max-w-4xl mx-auto text-center">
+      <section className="py-16 px-4 md:px-8 bg-gradient-to-r from-screenwise-navy to-screenwise-teal-dark text-white">
+        <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Join Our Mission</h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 opacity-90 max-w-3xl mx-auto">
             We're building a future where every child with feeding challenges has access to consistent, effective support both in and out of the clinic.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="/product" className="bg-white text-screenwise-navy hover:bg-screenwise-light px-8 py-3 rounded-full font-medium transition-all transform hover:-translate-y-1 inline-flex items-center">
-              Learn About Our Platform <ArrowRight className="ml-2" size={16} />
-            </a>
-            <a href="/contact" className="border border-white text-white hover:bg-white hover:text-screenwise-navy px-8 py-3 rounded-full font-medium transition-all transform hover:-translate-y-1">
-              Contact Us
-            </a>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Button className="bg-white text-screenwise-navy hover:bg-screenwise-light rounded-full px-8 py-6 text-lg">
+              Learn About Our Platform <ArrowRight className="ml-2" size={18} />
+            </Button>
+            <Button variant="outline" className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-500 hover:bg-violet-400">
+              Contact Us <ArrowRight className="ml-2" size={18} />
+            </Button>
           </div>
         </div>
       </section>
