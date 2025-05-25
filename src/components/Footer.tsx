@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronRight, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-black text-white pt-16 pb-8">
+  return <footer className="bg-black text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -50,14 +47,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/supporting-research" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Research
-                </Link>
+                
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
-                  <ChevronRight size={16} className="mr-2" /> Contact Us
-                </Link>
+                
               </li>
             </ul>
           </div>
@@ -94,8 +87,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Screenwise Eating LLC. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
