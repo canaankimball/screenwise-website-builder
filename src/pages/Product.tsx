@@ -33,7 +33,7 @@ const ProductFeature = ({ icon, title, description, image }) => (
       <img 
         src={image} 
         alt={title} 
-        className="w-full object-cover h-48 md:h-64 hover:scale-105 transition-transform duration-500"
+        className="w-full object-contain h-48 md:h-64 bg-gray-50 hover:scale-105 transition-transform duration-500"
       />
     </div>
     <div className="flex items-start gap-3">
