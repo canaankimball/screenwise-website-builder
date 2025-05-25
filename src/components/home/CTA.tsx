@@ -23,7 +23,7 @@ const CTA = () => {
             className="border-white rounded-full px-8 py-6 text-lg text-slate-50 bg-violet-700 hover:bg-violet-600"
             onClick={() => window.open('https://forms.gle/LXALB8iVEWS6SwwJA', '_blank')}
           >
-            Start Free Trial <MessageSquare className="ml-2" size={18} />
+            Start Free Trial />
           </Button>
         </div>
       </div>
