@@ -1,6 +1,7 @@
-
 import React from 'react';
-import { Check } from 'lucide-react';
+import { Check, ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const collaborations = [
   "Authors of widely used feeding therapy protocols and published research",
@@ -35,9 +36,15 @@ const Evidence = () => {
           </ul>
           
           <div className="mt-10 text-center">
-            <p className="text-lg text-gray-700 font-medium px-6 py-4 bg-screenwise-light bg-opacity-50 rounded-xl inline-block">
+            <p className="text-lg text-gray-700 font-medium px-6 py-4 bg-screenwise-light bg-opacity-50 rounded-xl inline-block mb-6">
               We are currently conducting an IRB-approved study with Dr. Lee Kern and the Lehigh University Autism Center, and piloting our platform with intensive feeding clinics across the country.
             </p>
+            
+            <Link to="/our-story#advisory-board">
+              <Button variant="outline" className="border-screenwise-teal text-screenwise-teal hover:bg-screenwise-light rounded-full px-8 py-3 text-lg flex items-center mx-auto shadow-sm hover:shadow-md transform hover:-translate-y-1 transition-all duration-300">
+                View Our Advisory Board <ArrowRight className="ml-2" size={18} />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
