@@ -18,35 +18,7 @@ const TermsOfUse = () => {
                 <p className="text-lg font-semibold text-gray-600">Last Updated: 5/25/2025</p>
               </div>
 
-              {/* Introduction */}
-              <div className="space-y-4">
-                <p>
-                  These Terms of Use ("Terms") apply to your access to and use of the website, mobile application, and other online products and services (collectively, the "Services") provided by Screenwise Eating, LLC ("YumEats," "we," "us," or "our"). By using our Services, you agree to these Terms. If you do not agree to these Terms, do not use our Services.
-                </p>
-                <p>
-                  We may modify these Terms at any time. If we make changes to these Terms, we will provide you with notice of such changes, such as by sending an email, providing a notice through our Services, or updating the date at the top of these Terms. Unless we say otherwise in our notice, the amended Terms will be effective immediately, and your continued use of our Services after we provide such notice will confirm your acceptance of the changes. If you do not agree to the amended Terms, you must stop using our Services.
-                </p>
-              </div>
-
-              {/* YOU CONSENT TO THIS POLICY */}
-              <div className="space-y-4">
-                <h2 className="text-2xl font-bold text-screenwise-navy">YOU CONSENT TO THIS POLICY</h2>
-                <p>
-                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">Privacy Policy</Link>. If you do not agree to this Policy or our Privacy Policy, you may not use the Services.
-                </p>
-                <p>
-                  This Policy and the Privacy Policy apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
-                </p>
-                <p>
-                  If you have any questions or concerns about our personal information policies or practices, you can contact us in the methods described in the "Contact Us" section below.
-                </p>
-              </div>
-
-              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
-                <p className="font-semibold text-gray-800">
-                  PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THIS SITE. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS OF USE, PLEASE DO NOT ACCESS THIS SITE, USE THE SITE, OR INDICATE ACCEPTANCE OF THESE TERMS.
-                </p>
-              </div>
+              
 
               <div className="space-y-8">
                 <div>
