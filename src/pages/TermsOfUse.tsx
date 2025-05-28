@@ -188,7 +188,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">OUR MATERIALS</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    YumEats may make certain digital reproductions of materials, information, content, software, or other materials (including but not limited to intellectual property, database rights, graphics, videos, text, and logos) available to you from this Site from time to time (collectively, the "YumEats Materials").
+                    YumEats may make certain digital reproductions of materials, information, content, software, or other materials (including but not limited to intellectual property, database rights, graphics, videos, text, and logos) available to you from this Site from time to time (collectively, the "<b>YumEats Materials</b>").
                   </p>
                   
                   <h4 className="text-xl font-semibold text-gray-800 mb-3">Intellectual Property</h4>
