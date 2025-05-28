@@ -9,13 +9,13 @@ const OurStory = () => {
   const teamMembers = [{
     name: 'Canaan Kimball',
     role: 'Co-Founder',
-    bio: 'Mechanical engineering and business student at Lehigh. Leads product and strategy. Passionate about building life-changing tools for families.',
+    bio: 'Mechanical engineering and business student-athlete at Lehigh. Leads product and strategy. Passionate about building life-changing tools for families.',
     image: '/lovable-uploads/d21c5a4a-3523-4173-8f8f-82adfcaf660d.png',
     initials: 'CK'
   }, {
     name: 'Eric Markovcy',
     role: 'Co-Founder',
-    bio: 'Strength coach and father of two. Inspired by his son\'s journey through feeding therapy. Drives partnerships and mission.',
+    bio: 'Director of Sports Performance and father of two. Inspired by his son\'s journey through feeding therapy. Drives partnerships and mission.',
     image: '/lovable-uploads/76d82bf8-a4cc-4cea-9972-8125a08ed6bf.png',
     initials: 'EM'
   }, {
