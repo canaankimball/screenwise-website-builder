@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
               {/* Introduction */}
               <div className="space-y-4">
                 <p>
-                  This online Privacy Policy (the "Policy") describes how Screenwise Eating, LLC and its affiliates and subsidiaries (collectively "YumEats," "we," "us," or "our") collect, use, disclose, and secure the personal information we gather about you through our website, https://screenwiseeating.com/ (the "Site"), when you use our Site, apps, and when you otherwise interact with us (collectively, the "Services").
+                  This online Privacy Policy (the "<b>Policy</b>") describes how Screenwise Eating, LLC and its affiliates and subsidiaries (collectively "<b>YumEats</b>," "<b>we</b>," "<b>us</b>," or "<b>our</b>") collect, use, disclose, and secure the personal information we gather about you through our website, https://screenwiseeating.com/ (the "<b>Site</b>"), when you use our Site, apps, and when you otherwise interact with us (collectively, the "<b>Services</b>").
                 </p>
                 <p>
                   For purposes of this Policy, personal information means data that classifies as personal information, personal data, personally identifiable information, or similar terms under applicable data privacy and security laws and regulations. It does not include data excluded or exempted from those laws and regulations, such as aggregated, anonymized, or deidentified data. Nothing in this Policy will constitute an admission or evidence that any particular data privacy or information security law or regulation applies to YumEats generally or in any specific context.
@@ -36,10 +36,10 @@ const PrivacyPolicy = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-screenwise-navy">YOU CONSENT TO THIS POLICY</h2>
                 <p>
-                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>. If you do not agree to this Policy or our Terms of Use, you may not use the Services.
+                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>. If you do not agree to this Policy or our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>, you may not use the Services.
                 </p>
                 <p>
-                  This Policy and the Terms of Use apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
+                  This Policy and the <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link> apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
                 </p>
                 <p>
                   If you have any questions or concerns about our personal information policies or practices, you can contact us in the methods described in the "Contact Us" section below.
