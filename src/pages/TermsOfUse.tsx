@@ -210,7 +210,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">USER CONTENT</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    You are solely responsible for the content and information (collectively referred to as "User Content") that you post or upload on the Services including feedback or questions.
+                    You are solely responsible for the content and information (collectively referred to as "<b>User Content</b>") that you post or upload on the Services including feedback or questions.
                   </p>
 
                   <h4 className="text-xl font-semibold text-gray-800 mb-3">License for YumEats for User Content</h4>
@@ -288,7 +288,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">INTELLECTUAL PROPERTY INFRINGEMENT</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    YumEats respects the intellectual property rights of others, and we ask you to do the same. This section discusses infringement of intellectual property, including under the Digital Millennium Copyright Act, 17 USC Section 512 et seq. ("DMCA").
+                    YumEats respects the intellectual property rights of others, and we ask you to do the same. This section discusses infringement of intellectual property, including under the Digital Millennium Copyright Act, 17 USC Section 512 et seq. ("<b>DMCA</b>").
                   </p>
                   
                   <h4 className="text-xl font-semibold text-gray-800 mb-3">Notice of Infringement</h4>
@@ -361,7 +361,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">SECURITY</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    YumEats makes no warranty whatsoever to you, express or implied, regarding the security of the Services, including with respect to the ability of unauthorized persons to intercept or access information transmitted by you through the Services. YumEats is not responsible for any losses resulting from the loss or theft of your device, the loss or theft of your information transmitted from or stored on your devices, or any losses arising from the use of your device by someone whom you have given access. You are required to notify us of any unauthorized use of the Services by using the contact information in the "Contact Information" section below.
+                    YumEats makes no warranty whatsoever to you, express or implied, regarding the security of the Services, including with respect to the ability of unauthorized persons to intercept or access information transmitted by you through the Services. YumEats is not responsible for any losses resulting from the loss or theft of your device, the loss or theft of your information transmitted from or stored on your devices, or any losses arising from the use of your device by someone whom you have given access. You are required to notify us of any unauthorized use of the Services by using the contact information in the "<b>Contact Information</b>" section below.
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-4">
                     Due to technical difficulties with the internet, internet software or transmission problems could produce inaccurate or incomplete copies of information contained on this Site or the Services. Due to the ability to share certain content and materials, computer viruses or other destructive programs may also be inadvertently downloaded from this Site or the Services. YumEats recommends that you install appropriate anti-virus or other protective software.
@@ -412,7 +412,7 @@ const TermsOfUse = () => {
                   </div>
                   <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
                     <p className="font-semibold text-gray-800">
-                      NOTWITHSTANDING THE FOREGOING PARAGRAPH AND TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF THE PROTECTED PARTIES, FOR ANY CLAIM, COST, DAMAGE, OR LOSS ARISING OUT OF OR RELATING TO THE SERVICES, INCLUDING FOR ANY WARRANTIES THAT MAY NOT BE EXCLUDED, SHALL NOT EXCEED THE LESSER OF THE AMOUNT YOU PAID TO US DURING THE TWELVE (12) MONTHS PRIOR TO THE EVENT GIVING RISE TO THE LIABILITY OR $10.00 (TEN DOLLARS) (USD) (THE "LIABILITY CAP").
+                      NOTWITHSTANDING THE FOREGOING PARAGRAPH AND TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE TOTAL LIABILITY OF THE PROTECTED PARTIES, FOR ANY CLAIM, COST, DAMAGE, OR LOSS ARISING OUT OF OR RELATING TO THE SERVICES, INCLUDING FOR ANY WARRANTIES THAT MAY NOT BE EXCLUDED, SHALL NOT EXCEED THE LESSER OF THE AMOUNT YOU PAID TO US DURING THE TWELVE (12) MONTHS PRIOR TO THE EVENT GIVING RISE TO THE LIABILITY OR $10.00 (TEN DOLLARS) (USD) (THE "<b>LIABILITY CAP</b>").
                     </p>
                   </div>
                   <p className="text-gray-700 leading-relaxed">
@@ -423,7 +423,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">INDEMNIFICATION</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    You will defend, indemnify, and hold YumEats, each third-party service provider, their respective affiliates, subsidiaries, and parent companies, and their respective officers, directors, employees, agents, information providers, and partners (collectively, the "Protected Parties") harmless from and against any actual or threatened suit, actions, proceedings (at law or in equity), claims, damages, payments, deficiencies, fines, judgments, settlements, liabilities, losses, costs, and expenses (including reasonable attorneys' fees, costs, penalties, interest, and disbursements) arising from or related to (a) your conduct with respect to the Services and/or (b) violation (or alleged violation) of these Terms by you or any other person accessing the Site or Services on your behalf. Under no circumstance will YumEats be liable for damages of any kind that result from your use of, or the inability to use, the Services.
+                    You will defend, indemnify, and hold YumEats, each third-party service provider, their respective affiliates, subsidiaries, and parent companies, and their respective officers, directors, employees, agents, information providers, and partners (collectively, the "<b>Protected Parties</b>") harmless from and against any actual or threatened suit, actions, proceedings (at law or in equity), claims, damages, payments, deficiencies, fines, judgments, settlements, liabilities, losses, costs, and expenses (including reasonable attorneys' fees, costs, penalties, interest, and disbursements) arising from or related to (a) your conduct with respect to the Services and/or (b) violation (or alleged violation) of these Terms by you or any other person accessing the Site or Services on your behalf. Under no circumstance will YumEats be liable for damages of any kind that result from your use of, or the inability to use, the Services.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     Please note that some jurisdictions limit the extent to which a party may indemnify another. As such, this provision will apply to you to the extent permitted by applicable law.
