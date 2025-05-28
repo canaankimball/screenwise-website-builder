@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '@/components/Layout';
 
 const ConsumerHealthDataPrivacyPolicy = () => {
@@ -25,7 +25,7 @@ const ConsumerHealthDataPrivacyPolicy = () => {
                     This Policy applies to residents of the Washington State, Nevada, Connecticut, and other individuals whose Consumer Health Data we collect in those states, consistent with the definition of "Consumer" in the applicable regulations. "Consumer Health Data" in this Policy means personal information that is linked to, or reasonably linkable to, a consumer and that identifies the consumer's past, present, or future physical or mental health status, diagnosis, or other similar terms as defined under applicable heath data laws and regulations. Consumer Health Data does not include personal health data regulated by the federal Health Insurance Portability and Accountability Act of 1996 and related regulations.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    This Policy covers Consumer Health Data we collect through our website, when you use our site, apps, and when you otherwise interact with us (collectively, the "Services").This Policy does not apply to other types of personal information. For more information on our collection or processing of personal information, please review our Privacy Policy.
+                    This Policy covers Consumer Health Data we collect through our website, when you use our site, apps, and when you otherwise interact with us (collectively, the "Services"). This Policy does not apply to other types of personal information. For more information on our collection or processing of personal information, please review our <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">Privacy Policy</Link>.
                   </p>
                 </div>
 

@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '@/components/Layout';
 
 const PrivacyPolicy = () => {
@@ -35,7 +36,7 @@ const PrivacyPolicy = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-screenwise-navy">YOU CONSENT TO THIS POLICY</h2>
                 <p>
-                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our Terms of Use. If you do not agree to this Policy or our Terms of Use, you may not use the Services.
+                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>. If you do not agree to this Policy or our Terms of Use, you may not use the Services.
                 </p>
                 <p>
                   This Policy and the Terms of Use apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
