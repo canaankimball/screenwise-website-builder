@@ -50,7 +50,7 @@ const TermsOfUse = () => {
                     These Terms, and all matters relating to the Services, and any disputes and claims arising therefrom or related thereto between you and YumEats (in each case, including non-contractual disputes or claims) will be governed by Pennsylvania law, without regard to its principles of conflicts of law that might require the application of the laws of another jurisdiction. You and YumEats agree to the exclusive jurisdiction of the federal and state courts located in Pennsylvania, and you and YumEats agree to submit to the exercise of personal jurisdiction of such courts for the purposes of litigating any applicable Dispute.
                   </p>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    "Disputes" are any disputes, claims, actions, and other controversies between you and YumEats or between you and the affiliates or agents of YumEats that, in either case, arise out of or relate to these Terms, the Services, or any other products or services related thereto, whether based in contract, tort, warranty, fraud, misrepresentation, statute, regulation, or another legal or equitable basis.
+                    "<b>Disputes</b>" are any disputes, claims, actions, and other controversies between you and YumEats or between you and the affiliates or agents of YumEats that, in either case, arise out of or relate to these Terms, the Services, or any other products or services related thereto, whether based in contract, tort, warranty, fraud, misrepresentation, statute, regulation, or another legal or equitable basis.
                   </p>
 
                   <h4 className="text-xl font-semibold text-gray-800 mb-3">Informal Dispute Resolution Prior to Litigation</h4>
