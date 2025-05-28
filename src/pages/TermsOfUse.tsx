@@ -110,7 +110,7 @@ const TermsOfUse = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-screenwise-navy mb-4">YOU AGREE TO OUR PRIVACY POLICY</h3>
                   <p className="text-gray-700 leading-relaxed mb-4">
-                    Please review our Privacy Policy, which is incorporated by reference in these Terms of Use. By using the Services, you are consenting to and agreeing to be bound by the <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">Privacy Policy</Link>.
+                    Please review our <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">Privacy Policy</Link>, which is incorporated by reference in these Terms of Use. By using the Services, you are consenting to and agreeing to be bound by the <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">Privacy Policy</Link>.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     When you use the Services, you consent to receive communications from us electronically via the Services, email, or otherwise. You agree to provide accurate, current, and complete information about yourself when you use the Services and to update such information while you continue to use the Services.
