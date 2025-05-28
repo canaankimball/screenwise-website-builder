@@ -4,6 +4,8 @@ import App from './App.tsx'
 import './index.css'
 
 console.log('Starting Screenwise Eating app...');
+console.log('Current URL:', window.location.href);
+console.log('Base URL:', document.baseURI);
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {
