@@ -18,7 +18,11 @@ const TermsOfUse = () => {
                 <p className="text-lg font-semibold text-gray-600">Last Updated: 5/25/2025</p>
               </div>
 
-              
+              <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
+                <p className="font-semibold text-gray-800">
+                  PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THIS SITE. IF YOU DO NOT AGREE TO BE BOUND BY THESE TERMS OF USE, PLEASE DO NOT ACCESS THIS SITE, USE THE SITE, OR INDICATE ACCEPTANCE OF THESE TERMS.
+                </p>
+              </div>
 
               <div className="space-y-8">
                 <div>
