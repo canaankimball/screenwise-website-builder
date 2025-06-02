@@ -27,7 +27,7 @@ const Pricing = () => {
       <section className="pt-20 pb-12 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-screenwise-navy mb-6">Simple, transparent pricing</h1>
-          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">Start with a free trial and scale as you grow.</p>
+          <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">Get our Early Adopter rates now! Start with a free trial and scale as you grow.</p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
             <PricingTier 
@@ -37,17 +37,17 @@ const Pricing = () => {
             />
             <PricingTier 
               title="Starter" 
-              price="$7.99" 
+              price="$12.99" 
               clients="Up to 5 clients" 
             />
             <PricingTier 
               title="Basic" 
-              price="$14.99" 
+              price="$19.99" 
               clients="Up to 10 clients" 
             />
             <PricingTier 
               title="Pro" 
-              price="$24.99" 
+              price="$29.99" 
               clients="Up to 20 clients" 
             />
           </div>
