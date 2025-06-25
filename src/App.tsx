@@ -34,7 +34,7 @@ const App = () => (
           <Route path="/enterprise" element={<Enterprise />} />
           <Route path="/small-business" element={<SmallBusiness />} />
           <Route path="/supporting-research" element={<SupportingResearch />} />
-          <Route path="/terms-of-use" element={<TermsOfUse />} />
+          <Route path="/terms-and-conditions-1" element={<TermsOfUse />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/consumer-health-data-privacy-policy" element={<ConsumerHealthDataPrivacyPolicy />} />
           <Route path="*" element={<NotFound />} />
