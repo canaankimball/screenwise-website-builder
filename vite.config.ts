@@ -5,11 +5,18 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  base: "/",
+export default defineConfig(({ mode }) => ({  base: "/",
   server: {
     host: "::",
     port: 8080,
+    fs: {
+      // Allow serving files from one level up to the project root
+      allow: ['..']
+    },
+    // Configure correct MIME types
+    headers: {
+      'Content-Type': 'application/javascript'
+    }
   },
   plugins: [
     react(),
