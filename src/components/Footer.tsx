@@ -78,7 +78,7 @@ const Footer = () => {
             <h4 className="text-lg font-medium mb-4">Legal</h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/terms-of-use" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
+                <Link to="/terms-and-conditions-1" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
                   <ChevronRight size={16} className="mr-2" /> Terms of Use
                 </Link>
               </li>

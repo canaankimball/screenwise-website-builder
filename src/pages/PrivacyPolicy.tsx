@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-screenwise-navy mb-8 text-center">Privacy Policy</h1>
           <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-lg">
             <div className="space-y-8 text-gray-700 leading-relaxed">
-              
+
               {/* Header */}
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold text-screenwise-navy mb-4">YumEats</h2>
@@ -36,10 +36,10 @@ const PrivacyPolicy = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-screenwise-navy">YOU CONSENT TO THIS POLICY</h2>
                 <p>
-                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>. If you do not agree to this Policy or our <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>, you may not use the Services.
+                  By accessing, browsing, downloading, or otherwise using the Services, you confirm that you have read, understood, and agreed with this Policy. Beyond this Policy, your use of the Services is subject to our <Link to="/terms-and-conditions-1" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>. If you do not agree to this Policy or our <Link to="/terms-and-conditions-1" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link>, you may not use the Services.
                 </p>
                 <p>
-                  This Policy and the <Link to="/terms-of-use" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link> apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
+                  This Policy and the <Link to="/terms-and-conditions-1" className="text-blue-600 hover:text-blue-800 underline">Terms of Use</Link> apply regardless of how the Services are accessed and will cover any technologies or devices by which we make the Services available to you.
                 </p>
                 <p>
                   If you have any questions or concerns about our personal information policies or practices, you can contact us in the methods described in the "Contact Us" section below.
@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
 
                 <h3 className="text-xl font-bold text-screenwise-navy mt-6">Personal Information You Provide to Us</h3>
                 <p>The following list describes the categories of personal information we may collect directly from you:</p>
-                
+
                 <div className="space-y-4 ml-4">
                   <p>
                     <strong>Account Information</strong> includes first name, last name, email address, and password. This also includes information about the user including date of birth, height, weight, and additional metrics used to provide the Services. We collect this information when you provide it directly to us such as when you sign up for the Services, creating an account through the Site, or fill out a form. We collect this information for providing the Services, administrative purposes, and marketing and advertising our products and services.
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
                   <p>
                     <strong>Types of Cookies and Their Functions.</strong> The following chart lists the different types of cookies that we and our service providers use on the Services, examples of who serves those cookies and links to the privacy notices and opt-out information of those cookie servers. Because the specific cookies we use may vary over time, as well as differ by the specific page you are browsing, the below chart is illustrative only.
                   </p>
-                  
+
                   <div className="overflow-x-auto">
                     <table className="w-full border-collapse border border-gray-300 mt-4">
                       <thead>
@@ -239,7 +239,7 @@ const PrivacyPolicy = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-screenwise-navy">HOW WE DISCLOSE PERSONAL INFORMATION WE COLLECT</h2>
                 <p>We may collect, use, or disclose personal information for a variety of business purposes, including the following:</p>
-                
+
                 <div className="space-y-4 ml-4">
                   <p>
                     <strong>Business Partners and Affiliates.</strong> We may collect personal information from and disclose personal information with our business partners and affiliates, including legal advisors and financial advisors, co-branded partners, and other third parties. We may combine that information with other information we collect about you, but we will always use the information as described in this Policy. We may also disclose personal information to our affiliates, subsidiaries, joint ventures or other companies under common control.
@@ -260,7 +260,7 @@ const PrivacyPolicy = () => {
               <div className="space-y-4">
                 <h2 className="text-2xl font-bold text-screenwise-navy">YOUR PRIVACY OPTIONS AND CONFIGURATIONS</h2>
                 <p>Depending on the device(s) you use to access the Services, you may be able to select certain privacy choices or configuration, which are further described below:</p>
-                
+
                 <div className="space-y-4 ml-4">
                   <p>
                     <strong>Email Communications.</strong> If you receive an unwanted email from us, you can use the unsubscribe link found at the bottom of the email to opt out of receiving future emails. Note that you will continue to receive transaction-related emails regarding products or Services you have requested. We may also send you certain non-promotional communications regarding us and our Services, and you will not be able to opt out of those communications (e.g., communications regarding our Services or updates to our Terms of Use or this Privacy Policy).
