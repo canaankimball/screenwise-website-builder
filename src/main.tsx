@@ -8,6 +8,7 @@ console.log('Current URL:', window.location.href);
 console.log('Base URL:', document.baseURI);
 console.log('Host:', window.location.host);
 console.log('Pathname:', window.location.pathname);
+console.log('Environment:', import.meta.env.MODE);
 
 const rootElement = document.getElementById("root");
 if (!rootElement) {
