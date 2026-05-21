@@ -14,10 +14,6 @@ export default defineConfig(({ mode }) => ({
       // Allow serving files from one level up to the project root
       allow: ['..']
     },
-    // Configure correct MIME types
-    headers: {
-      'Content-Type': 'application/javascript'
-    }
   },
   plugins: [
     react(),
