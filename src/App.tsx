@@ -14,6 +14,7 @@ import SupportingResearch from "./pages/SupportingResearch";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ConsumerHealthDataPrivacyPolicy from "./pages/ConsumerHealthDataPrivacyPolicy";
+import YumEatsGuide from "./pages/YumEatsGuide";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/terms-and-conditions-1" element={<TermsOfUse />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/consumer-health-data-privacy-policy" element={<ConsumerHealthDataPrivacyPolicy />} />
+          <Route path="/yumeats-guide" element={<YumEatsGuide />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
