@@ -55,6 +55,11 @@ const Footer = () => {
                   <ChevronRight size={16} className="mr-2" /> FAQ
                 </Link>
               </li>
+              <li>
+                <Link to="/yumeats-guide" className="text-gray-300 hover:text-screenwise-teal transition-colors flex items-center">
+                  <ChevronRight size={16} className="mr-2" /> YumEats Guide
+                </Link>
+              </li>
             </ul>
           </div>
 
