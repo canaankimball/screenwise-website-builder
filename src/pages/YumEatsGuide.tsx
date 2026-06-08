@@ -1,15 +1,15 @@
 import React from 'react';
 import Layout from '@/components/Layout';
-import home from '@/assets/yumeats/02_hom.png.asset.json';
-import profile from '@/assets/yumeats/03_pro.png.asset.json';
-import stats from '@/assets/yumeats/04_sta.png.asset.json';
-import sub from '@/assets/yumeats/05_sub.png.asset.json';
-import preMeal from '@/assets/yumeats/06_pre.png.asset.json';
-import reward from '@/assets/yumeats/07_cho.png.asset.json';
-import meal from '@/assets/yumeats/08_mea.png.asset.json';
-import mealChew from '@/assets/yumeats/09_mea.png.asset.json';
-import chest from '@/assets/yumeats/10_tre.png.asset.json';
-import postMeal from '@/assets/yumeats/11_pos.png.asset.json';
+import home from '@/assets/yumeats/02_home_screen.png';
+import profile from '@/assets/yumeats/03_profile_tab.png';
+import stats from '@/assets/yumeats/04_statistics_tab.png';
+import sub from '@/assets/yumeats/05_subscription_tab.png';
+import preMeal from '@/assets/yumeats/06_premeal_log.png';
+import reward from '@/assets/yumeats/07_choose_reward.png';
+import meal from '@/assets/yumeats/08_meal_screen.png';
+import mealChew from '@/assets/yumeats/09_meal_screen_chew.png';
+import chest from '@/assets/yumeats/10_treasure_chest.png';
+import postMeal from '@/assets/yumeats/11_post_meal_log.png';
 
 const Shot = ({ src, alt }: { src: string; alt: string }) => (
   <div className="my-8 flex justify-center">
