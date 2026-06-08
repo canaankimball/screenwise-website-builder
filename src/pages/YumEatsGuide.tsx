@@ -109,7 +109,7 @@ const YumEatsGuide = () => {
             The Home screen is your starting point. From here you can begin a meal, review past
             meals, switch between children, and reach every other part of the app.
           </p>
-          <Shot src={home.url} alt="Home screen" />
+          <Shot src={home} alt="Home screen" />
           <h4 className="text-xl font-semibold text-screenwise-navy mb-3">What you'll find here</h4>
           <ul className="list-disc pl-6 text-gray-700 space-y-2 text-lg">
             <li><strong>Start Meal</strong> begins a new meal session.</li>
@@ -124,7 +124,7 @@ const YumEatsGuide = () => {
             bites your child takes to earn a reward and how long that reward lasts. As your child
             grows more confident, you unlock the next stage.
           </p>
-          <Shot src={profile.url} alt="Profile tab with levels" />
+          <Shot src={profile} alt="Profile tab with levels" />
           <Callout title="How levels work">
             <strong>Beginner:</strong> 1 bite earns a 20-second reward. Unlock <strong>Learner</strong> and it becomes
             2 bites for a 30-second reward. You keep increasing the challenge as your child
@@ -142,14 +142,14 @@ const YumEatsGuide = () => {
             <li>the specific meals shown (breakfast, lunch, dinner, snack);</li>
             <li>and the specific foods your child is working on — so you can watch progress on challenge or "fear" foods develop over time.</li>
           </ul>
-          <Shot src={stats.url} alt="Statistics tab" />
+          <Shot src={stats} alt="Statistics tab" />
 
           {/* Subscription */}
           <SectionHeading>Subscription Tab</SectionHeading>
           <p className="text-lg text-gray-700 leading-relaxed">
             Find details here about continuing your subscription with YumEats Premium.
           </p>
-          <Shot src={sub.url} alt="Subscription tab" />
+          <Shot src={sub} alt="Subscription tab" />
 
           {/* Walking Through a Meal */}
           <SectionHeading>Walking Through a Meal</SectionHeading>
@@ -171,7 +171,7 @@ const YumEatsGuide = () => {
             isn't listed, you can add a custom food. Logging specific foods lets you mark when your
             child takes bites of each one — and watch their progress with those foods over time.
           </p>
-          <Shot src={preMeal.url} alt="Pre-meal log" />
+          <Shot src={preMeal} alt="Pre-meal log" />
           <Callout title="Why this matters">
             If your child struggles with certain foods — challenge foods or "fear" foods — you can
             incentivize them to eat those specific foods. The Statistics tab then shows you exactly
@@ -189,7 +189,7 @@ const YumEatsGuide = () => {
             label anything that motivates your child — for example, "Toy Time." Once you choose a
             reward, the app takes you to the meal screen.
           </p>
-          <Shot src={reward.url} alt="Choose your reward" />
+          <Shot src={reward} alt="Choose your reward" />
 
           {/* Meal Screen */}
           <SectionHeading>The Meal Screen</SectionHeading>
@@ -198,7 +198,7 @@ const YumEatsGuide = () => {
             with bite buttons below it. The reward stays blurred until your child earns it by
             taking bites.
           </p>
-          <Shot src={meal.url} alt="Meal screen" />
+          <Shot src={meal} alt="Meal screen" />
           <h4 className="text-xl font-semibold text-screenwise-navy mb-3">How a bite works</h4>
           <ol className="list-decimal pl-6 text-gray-700 space-y-2 text-lg">
             <li>When your child takes a bite, have them press <strong>Bite 1</strong>.</li>
@@ -211,7 +211,7 @@ const YumEatsGuide = () => {
             For example, at a 2-bite level, your child takes a bite, chews, takes a second bite,
             chews and swallows — and then the reward unlocks.
           </p>
-          <Shot src={mealChew.url} alt="Meal screen with chew animation" />
+          <Shot src={mealChew} alt="Meal screen with chew animation" />
 
           <SubHeading>Earning reward time</SubHeading>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -226,7 +226,7 @@ const YumEatsGuide = () => {
             In the bottom right corner is a treasure chest. When the meal is over, your child taps
             the chest to receive their reward — a satisfying finish that celebrates their effort.
           </p>
-          <Shot src={chest.url} alt="Treasure chest" />
+          <Shot src={chest} alt="Treasure chest" />
 
           <SubHeading>Step 4 — Hand the Phone Back</SubHeading>
           <p className="text-lg text-gray-700 leading-relaxed">
@@ -235,7 +235,7 @@ const YumEatsGuide = () => {
             you're done, tap <strong>Save</strong>. The meal is then stored in your Meal History and
             added to the Statistics tab, so it counts toward your child's long-term progress.
           </p>
-          <Shot src={postMeal.url} alt="Post-meal log" />
+          <Shot src={postMeal} alt="Post-meal log" />
 
           {/* Three Things */}
           <SectionHeading>Three Things Every Parent Should Know</SectionHeading>
